@@ -1,0 +1,2523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="module" for="node" attr.name="module" attr.type="string"/>
+  <key id="tier" for="node" attr.name="tier" attr.type="string"/>
+  <key id="recurrence" for="node" attr.name="recurrence" attr.type="int"/>
+  <key id="recurrence_q_BH" for="node" attr.name="recurrence_q_BH" attr.type="double"/>
+  <key id="max_r" for="node" attr.name="max_r" attr.type="double"/>
+  <key id="mean_r" for="node" attr.name="mean_r" attr.type="double"/>
+  <key id="mean_r_DOT1L_complex" for="node" attr.name="mean_r_DOT1L_complex" attr.type="double"/>
+  <key id="mean_r_MENIN_MLL" for="node" attr.name="mean_r_MENIN_MLL" attr.type="double"/>
+  <key id="string_degree" for="node" attr.name="string_degree" attr.type="int"/>
+  <key id="module_stability" for="node" attr.name="module_stability" attr.type="double"/>
+  <key id="is_seed" for="node" attr.name="is_seed" attr.type="boolean"/>
+  <key id="high_confidence" for="node" attr.name="high_confidence" attr.type="boolean"/>
+  <key id="edge_type" for="edge" attr.name="edge_type" attr.type="string"/>
+  <key id="weight" for="edge" attr.name="weight" attr.type="double"/>
+  <graph id="DOT1L_H3K79_dependency_network" edgedefault="undirected">
+    <node id="ADIPOR2">
+      <data key="module">NAD synthesis</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.193440556526184</data>
+      <data key="mean_r">0.17884964495897285</data>
+      <data key="mean_r_DOT1L_complex">0.193440556526184</data>
+      <data key="mean_r_MENIN_MLL">0.1642587333917617</data>
+      <data key="string_degree">2</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="AFF1">
+      <data key="module">H3K79 writer (DotCom)</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.261473536491394</data>
+      <data key="mean_r">0.24605528265237803</data>
+      <data key="mean_r_DOT1L_complex">0.24605528265237803</data>
+      <data key="string_degree">14</data>
+      <data key="module_stability">0.913</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="ALAD">
+      <data key="module">Heme / sugar metabolism</data>
+      <data key="tier">A</data>
+      <data key="recurrence">5</data>
+      <data key="recurrence_q_BH">0.001557</data>
+      <data key="max_r">0.2566069364547729</data>
+      <data key="mean_r">0.20539235472679135</data>
+      <data key="mean_r_DOT1L_complex">0.20470884442329404</data>
+      <data key="mean_r_MENIN_MLL">0.2064176201820373</data>
+      <data key="string_degree">4</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="ALAS1">
+      <data key="module">Heme / sugar metabolism</data>
+      <data key="tier">B</data>
+      <data key="recurrence">3</data>
+      <data key="recurrence_q_BH">0.147097</data>
+      <data key="max_r">0.2326710075139999</data>
+      <data key="mean_r">0.1947848399480184</data>
+      <data key="mean_r_DOT1L_complex">0.2326710075139999</data>
+      <data key="mean_r_MENIN_MLL">0.17584175616502762</data>
+      <data key="string_degree">3</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="ARHGAP45">
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.2274928838014602</data>
+      <data key="mean_r">0.2052472829818725</data>
+      <data key="mean_r_DOT1L_complex">0.2052472829818725</data>
+      <data key="string_degree">0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="ASH1L">
+      <data key="tier">B</data>
+      <data key="recurrence">3</data>
+      <data key="recurrence_q_BH">0.147097</data>
+      <data key="max_r">0.3122389018535614</data>
+      <data key="mean_r">0.24490267535050705</data>
+      <data key="mean_r_DOT1L_complex">0.2112345620989799</data>
+      <data key="mean_r_MENIN_MLL">0.3122389018535614</data>
+      <data key="string_degree">14</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="ATIC">
+      <data key="module">Nucleotide biosynthesis</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.2551704049110412</data>
+      <data key="mean_r">0.2200021147727966</data>
+      <data key="mean_r_DOT1L_complex">0.2200021147727966</data>
+      <data key="string_degree">8</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="ATP1B3">
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.1937588304281234</data>
+      <data key="mean_r">0.1764999702572822</data>
+      <data key="mean_r_DOT1L_complex">0.159241110086441</data>
+      <data key="mean_r_MENIN_MLL">0.1937588304281234</data>
+      <data key="string_degree">0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="ATXN2L">
+      <data key="tier">B</data>
+      <data key="recurrence">3</data>
+      <data key="recurrence_q_BH">0.147097</data>
+      <data key="max_r">0.2137657701969146</data>
+      <data key="mean_r">0.2003407776355743</data>
+      <data key="mean_r_DOT1L_complex">0.19418504089117045</data>
+      <data key="mean_r_MENIN_MLL">0.212652251124382</data>
+      <data key="string_degree">2</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="ATXN7">
+      <data key="module">SAGA complex</data>
+      <data key="tier">A</data>
+      <data key="recurrence">4</data>
+      <data key="recurrence_q_BH">0.015391</data>
+      <data key="max_r">0.2203110456466674</data>
+      <data key="mean_r">0.20338238775730128</data>
+      <data key="mean_r_DOT1L_complex">0.20338238775730128</data>
+      <data key="string_degree">13</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="ATXN7L3">
+      <data key="module">SAGA complex</data>
+      <data key="tier">B</data>
+      <data key="recurrence">3</data>
+      <data key="recurrence_q_BH">0.147097</data>
+      <data key="max_r">0.1800173670053482</data>
+      <data key="mean_r">0.16248405973116553</data>
+      <data key="mean_r_DOT1L_complex">0.1464464515447616</data>
+      <data key="mean_r_MENIN_MLL">0.17050286382436752</data>
+      <data key="string_degree">11</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="BCL2">
+      <data key="tier">A</data>
+      <data key="recurrence">5</data>
+      <data key="recurrence_q_BH">0.001557</data>
+      <data key="max_r">0.2566793262958526</data>
+      <data key="mean_r">0.1976935237646103</data>
+      <data key="mean_r_DOT1L_complex">0.21394054094950357</data>
+      <data key="mean_r_MENIN_MLL">0.1733229979872703</data>
+      <data key="string_degree">10</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="BCS1L">
+      <data key="module">Mitochondrial OXPHOS</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.203220710158348</data>
+      <data key="mean_r">0.1964998170733451</data>
+      <data key="mean_r_DOT1L_complex">0.1964998170733451</data>
+      <data key="string_degree">9</data>
+      <data key="module_stability">0.996</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="BIN3">
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.1753748059272766</data>
+      <data key="mean_r">0.16561750322580338</data>
+      <data key="mean_r_DOT1L_complex">0.1558602005243301</data>
+      <data key="mean_r_MENIN_MLL">0.1753748059272766</data>
+      <data key="string_degree">0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="BRD3OS">
+      <data key="tier">C</data>
+      <data key="recurrence">1</data>
+      <data key="recurrence_q_BH">1.0</data>
+      <data key="max_r">0.4633114337921142</data>
+      <data key="mean_r">0.4633114337921142</data>
+      <data key="mean_r_MENIN_MLL">0.4633114337921142</data>
+      <data key="string_degree">0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="BRD9">
+      <data key="module">ncBAF</data>
+      <data key="tier">B</data>
+      <data key="recurrence">3</data>
+      <data key="recurrence_q_BH">0.147097</data>
+      <data key="max_r">0.2138657420873642</data>
+      <data key="mean_r">0.1952455391486486</data>
+      <data key="mean_r_DOT1L_complex">0.21153157949447632</data>
+      <data key="mean_r_MENIN_MLL">0.1626734584569931</data>
+      <data key="string_degree">5</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="BRPF1">
+      <data key="module">MOZ/MORF-HBO1 HAT</data>
+      <data key="tier">A</data>
+      <data key="recurrence">4</data>
+      <data key="recurrence_q_BH">0.015391</data>
+      <data key="max_r">0.4316776692867279</data>
+      <data key="mean_r">0.352764792740345</data>
+      <data key="mean_r_DOT1L_complex">0.3762874901294708</data>
+      <data key="mean_r_MENIN_MLL">0.3292420953512192</data>
+      <data key="string_degree">15</data>
+      <data key="module_stability">0.992</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="CAB39">
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.2330902814865112</data>
+      <data key="mean_r">0.2166947871446609</data>
+      <data key="mean_r_DOT1L_complex">0.2166947871446609</data>
+      <data key="string_degree">1</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="CAD">
+      <data key="module">Nucleotide biosynthesis</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.2405197918415069</data>
+      <data key="mean_r">0.2057387828826904</data>
+      <data key="mean_r_DOT1L_complex">0.2405197918415069</data>
+      <data key="mean_r_MENIN_MLL">0.1709577739238739</data>
+      <data key="string_degree">6</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="CARS2">
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.2168719172477722</data>
+      <data key="mean_r">0.1888059377670288</data>
+      <data key="mean_r_DOT1L_complex">0.2168719172477722</data>
+      <data key="mean_r_MENIN_MLL">0.1607399582862854</data>
+      <data key="string_degree">4</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="CBFB">
+      <data key="module">Lymphoid/myeloid TFs</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.2521935105323791</data>
+      <data key="mean_r">0.2346265763044357</data>
+      <data key="mean_r_DOT1L_complex">0.2346265763044357</data>
+      <data key="string_degree">11</data>
+      <data key="module_stability">0.953</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="CCDC47">
+      <data key="tier">B</data>
+      <data key="recurrence">3</data>
+      <data key="recurrence_q_BH">0.147097</data>
+      <data key="max_r">0.2369195967912674</data>
+      <data key="mean_r">0.20869732399781546</data>
+      <data key="mean_r_DOT1L_complex">0.21308380365371704</data>
+      <data key="mean_r_MENIN_MLL">0.1999243646860122</data>
+      <data key="string_degree">0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="CCNC">
+      <data key="module">Mediator complex</data>
+      <data key="tier">B</data>
+      <data key="recurrence">3</data>
+      <data key="recurrence_q_BH">0.147097</data>
+      <data key="max_r">0.2305681705474853</data>
+      <data key="mean_r">0.2029125094413757</data>
+      <data key="mean_r_DOT1L_complex">0.2029125094413757</data>
+      <data key="string_degree">11</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="CCND3">
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.2309323251247406</data>
+      <data key="mean_r">0.1951981857419014</data>
+      <data key="mean_r_DOT1L_complex">0.2309323251247406</data>
+      <data key="mean_r_MENIN_MLL">0.1594640463590622</data>
+      <data key="string_degree">6</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="CDIN1">
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.2491001337766647</data>
+      <data key="mean_r">0.22135829180479044</data>
+      <data key="mean_r_DOT1L_complex">0.22135829180479044</data>
+      <data key="string_degree">0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="CHD7">
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.1991882026195526</data>
+      <data key="mean_r">0.18716548383235931</data>
+      <data key="mean_r_DOT1L_complex">0.1991882026195526</data>
+      <data key="mean_r_MENIN_MLL">0.175142765045166</data>
+      <data key="string_degree">5</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="COX16">
+      <data key="module">Mitochondrial OXPHOS</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.1968887001276016</data>
+      <data key="mean_r">0.19658713042736048</data>
+      <data key="mean_r_DOT1L_complex">0.19658713042736048</data>
+      <data key="string_degree">3</data>
+      <data key="module_stability">0.996</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="COX5B">
+      <data key="module">Mitochondrial OXPHOS</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.1966758817434311</data>
+      <data key="mean_r">0.19342334568500513</data>
+      <data key="mean_r_DOT1L_complex">0.19342334568500513</data>
+      <data key="string_degree">9</data>
+      <data key="module_stability">0.996</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="COX6B1">
+      <data key="module">Mitochondrial OXPHOS</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.2018228471279144</data>
+      <data key="mean_r">0.182805486023426</data>
+      <data key="mean_r_DOT1L_complex">0.2018228471279144</data>
+      <data key="mean_r_MENIN_MLL">0.1637881249189376</data>
+      <data key="string_degree">7</data>
+      <data key="module_stability">0.996</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="CTBP1">
+      <data key="module">MYB-p300 coactivator</data>
+      <data key="tier">A</data>
+      <data key="recurrence">4</data>
+      <data key="recurrence_q_BH">0.015391</data>
+      <data key="max_r">0.2409978508949279</data>
+      <data key="mean_r">0.20490180701017374</data>
+      <data key="mean_r_DOT1L_complex">0.20256800204515452</data>
+      <data key="mean_r_MENIN_MLL">0.207235611975193</data>
+      <data key="string_degree">14</data>
+      <data key="module_stability">0.909</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="DARS2">
+      <data key="tier">B</data>
+      <data key="recurrence">3</data>
+      <data key="recurrence_q_BH">0.147097</data>
+      <data key="max_r">0.2354295700788498</data>
+      <data key="mean_r">0.2047724177440007</data>
+      <data key="mean_r_DOT1L_complex">0.21722063422203064</data>
+      <data key="mean_r_MENIN_MLL">0.1798759847879409</data>
+      <data key="string_degree">3</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="DCAF7">
+      <data key="tier">C</data>
+      <data key="recurrence">1</data>
+      <data key="recurrence_q_BH">1.0</data>
+      <data key="max_r">0.4264193177223205</data>
+      <data key="mean_r">0.4264193177223205</data>
+      <data key="mean_r_DOT1L_complex">0.4264193177223205</data>
+      <data key="string_degree">2</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="DENND4A">
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.1962253004312515</data>
+      <data key="mean_r">0.18085273355245585</data>
+      <data key="mean_r_DOT1L_complex">0.1962253004312515</data>
+      <data key="mean_r_MENIN_MLL">0.1654801666736602</data>
+      <data key="string_degree">1</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="DLST">
+      <data key="module">Mitochondrial OXPHOS</data>
+      <data key="tier">B</data>
+      <data key="recurrence">3</data>
+      <data key="recurrence_q_BH">0.147097</data>
+      <data key="max_r">0.2353713065385818</data>
+      <data key="mean_r">0.2055255721012751</data>
+      <data key="mean_r_DOT1L_complex">0.21561288833618159</data>
+      <data key="mean_r_MENIN_MLL">0.1853509396314621</data>
+      <data key="string_degree">7</data>
+      <data key="module_stability">0.996</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="DOT1L">
+      <data key="module">H3K79 writer (DotCom)</data>
+      <data key="tier">A</data>
+      <data key="recurrence">5</data>
+      <data key="recurrence_q_BH">0.001557</data>
+      <data key="max_r">0.5702705979347229</data>
+      <data key="mean_r">0.4184849590063095</data>
+      <data key="mean_r_DOT1L_complex">0.3327566335598627</data>
+      <data key="mean_r_MENIN_MLL">0.5470774471759796</data>
+      <data key="string_degree">18</data>
+      <data key="module_stability">0.913</data>
+      <data key="is_seed">true</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="DYRK1A">
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.193146675825119</data>
+      <data key="mean_r">0.17713736742734904</data>
+      <data key="mean_r_MENIN_MLL">0.17713736742734904</data>
+      <data key="string_degree">8</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="EBF1">
+      <data key="module">Lymphoid/myeloid TFs</data>
+      <data key="tier">B</data>
+      <data key="recurrence">3</data>
+      <data key="recurrence_q_BH">0.147097</data>
+      <data key="max_r">0.2337517738342285</data>
+      <data key="mean_r">0.20500550170739487</data>
+      <data key="mean_r_DOT1L_complex">0.21794399619102472</data>
+      <data key="mean_r_MENIN_MLL">0.1791285127401352</data>
+      <data key="string_degree">16</data>
+      <data key="module_stability">0.863</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="EED">
+      <data key="module">PRC2</data>
+      <data key="tier">A</data>
+      <data key="recurrence">5</data>
+      <data key="recurrence_q_BH">0.001557</data>
+      <data key="max_r">0.3804697394371032</data>
+      <data key="mean_r">0.2855804324150085</data>
+      <data key="mean_r_DOT1L_complex">0.27687933047612506</data>
+      <data key="mean_r_MENIN_MLL">0.29863208532333374</data>
+      <data key="string_degree">9</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="EP300">
+      <data key="module">MYB-p300 coactivator</data>
+      <data key="tier">A</data>
+      <data key="recurrence">4</data>
+      <data key="recurrence_q_BH">0.015391</data>
+      <data key="max_r">0.2828535437583923</data>
+      <data key="mean_r">0.21434448659420008</data>
+      <data key="mean_r_DOT1L_complex">0.22983869910240165</data>
+      <data key="mean_r_MENIN_MLL">0.1678618490695953</data>
+      <data key="string_degree">42</data>
+      <data key="module_stability">0.885</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="EZH2">
+      <data key="module">PRC2</data>
+      <data key="tier">A</data>
+      <data key="recurrence">5</data>
+      <data key="recurrence_q_BH">0.001557</data>
+      <data key="max_r">0.4248451590538025</data>
+      <data key="mean_r">0.30535897314548494</data>
+      <data key="mean_r_DOT1L_complex">0.3174686978260676</data>
+      <data key="mean_r_MENIN_MLL">0.2871943861246109</data>
+      <data key="string_degree">19</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="FH">
+      <data key="module">Mitochondrial OXPHOS</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.2039470076560974</data>
+      <data key="mean_r">0.18836710602045054</data>
+      <data key="mean_r_DOT1L_complex">0.2039470076560974</data>
+      <data key="mean_r_MENIN_MLL">0.1727872043848037</data>
+      <data key="string_degree">9</data>
+      <data key="module_stability">0.996</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="FPGS">
+      <data key="module">Nucleotide biosynthesis</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.2243960797786712</data>
+      <data key="mean_r">0.20771526545286176</data>
+      <data key="mean_r_DOT1L_complex">0.20771526545286176</data>
+      <data key="string_degree">3</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="GCLC">
+      <data key="tier">A</data>
+      <data key="recurrence">4</data>
+      <data key="recurrence_q_BH">0.015391</data>
+      <data key="max_r">0.2967402338981628</data>
+      <data key="mean_r">0.23301028460264206</data>
+      <data key="mean_r_DOT1L_complex">0.29117314517498016</data>
+      <data key="mean_r_MENIN_MLL">0.1748474240303039</data>
+      <data key="string_degree">3</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="GSE1">
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.2235156148672104</data>
+      <data key="mean_r">0.20278499275445933</data>
+      <data key="mean_r_DOT1L_complex">0.20278499275445933</data>
+      <data key="string_degree">0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="GSS">
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.2232934832572937</data>
+      <data key="mean_r">0.2146831154823303</data>
+      <data key="mean_r_DOT1L_complex">0.2146831154823303</data>
+      <data key="string_degree">1</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="H4C9">
+      <data key="module">H3K79 writer (DotCom)</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.2103621363639831</data>
+      <data key="mean_r">0.20714118331670756</data>
+      <data key="mean_r_DOT1L_complex">0.203920230269432</data>
+      <data key="mean_r_MENIN_MLL">0.2103621363639831</data>
+      <data key="string_degree">18</data>
+      <data key="module_stability">0.767</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="IKZF1">
+      <data key="module">Lymphoid/myeloid TFs</data>
+      <data key="tier">B</data>
+      <data key="recurrence">3</data>
+      <data key="recurrence_q_BH">0.147097</data>
+      <data key="max_r">0.2050841599702835</data>
+      <data key="mean_r">0.18967520197232565</data>
+      <data key="mean_r_DOT1L_complex">0.18612231314182281</data>
+      <data key="mean_r_MENIN_MLL">0.1967809796333313</data>
+      <data key="string_degree">15</data>
+      <data key="module_stability">0.952</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="ING5">
+      <data key="module">MOZ/MORF-HBO1 HAT</data>
+      <data key="tier">A</data>
+      <data key="recurrence">4</data>
+      <data key="recurrence_q_BH">0.015391</data>
+      <data key="max_r">0.3139872550964355</data>
+      <data key="mean_r">0.2538375295698642</data>
+      <data key="mean_r_DOT1L_complex">0.23240327090024945</data>
+      <data key="mean_r_MENIN_MLL">0.275271788239479</data>
+      <data key="string_degree">12</data>
+      <data key="module_stability">0.992</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="IRF8">
+      <data key="tier">B</data>
+      <data key="recurrence">3</data>
+      <data key="recurrence_q_BH">0.147097</data>
+      <data key="max_r">0.2070997208356857</data>
+      <data key="mean_r">0.18530530234177908</data>
+      <data key="mean_r_DOT1L_complex">0.2070997208356857</data>
+      <data key="mean_r_MENIN_MLL">0.17440809309482574</data>
+      <data key="string_degree">7</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="JADE1">
+      <data key="module">MOZ/MORF-HBO1 HAT</data>
+      <data key="tier">A</data>
+      <data key="recurrence">4</data>
+      <data key="recurrence_q_BH">0.015391</data>
+      <data key="max_r">0.2388151288032531</data>
+      <data key="mean_r">0.21046618372201914</data>
+      <data key="mean_r_DOT1L_complex">0.21608579903841013</data>
+      <data key="mean_r_MENIN_MLL">0.20484656840562815</data>
+      <data key="string_degree">7</data>
+      <data key="module_stability">0.992</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="JADE2">
+      <data key="module">MOZ/MORF-HBO1 HAT</data>
+      <data key="tier">A</data>
+      <data key="recurrence">4</data>
+      <data key="recurrence_q_BH">0.015391</data>
+      <data key="max_r">0.4171246588230133</data>
+      <data key="mean_r">0.2955818511545658</data>
+      <data key="mean_r_DOT1L_complex">0.2542268857359886</data>
+      <data key="mean_r_MENIN_MLL">0.336936816573143</data>
+      <data key="string_degree">6</data>
+      <data key="module_stability">0.992</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="KAT6A">
+      <data key="module">MOZ/MORF-HBO1 HAT</data>
+      <data key="tier">A</data>
+      <data key="recurrence">6</data>
+      <data key="recurrence_q_BH">0.000301</data>
+      <data key="max_r">0.4051835834980011</data>
+      <data key="mean_r">0.2797238503893216</data>
+      <data key="mean_r_DOT1L_complex">0.2713131830096245</data>
+      <data key="mean_r_MENIN_MLL">0.296545185148716</data>
+      <data key="string_degree">23</data>
+      <data key="module_stability">0.925</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="KAT6B">
+      <data key="module">MOZ/MORF-HBO1 HAT</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.2865894436836242</data>
+      <data key="mean_r">0.2562968656420707</data>
+      <data key="mean_r_DOT1L_complex">0.2865894436836242</data>
+      <data key="mean_r_MENIN_MLL">0.2260042876005172</data>
+      <data key="string_degree">16</data>
+      <data key="module_stability">0.992</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="KAT7">
+      <data key="module">MOZ/MORF-HBO1 HAT</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.2140748798847198</data>
+      <data key="mean_r">0.20563280582427973</data>
+      <data key="mean_r_MENIN_MLL">0.20563280582427973</data>
+      <data key="string_degree">14</data>
+      <data key="module_stability">0.992</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="KIAA0040">
+      <data key="tier">C</data>
+      <data key="recurrence">1</data>
+      <data key="recurrence_q_BH">1.0</data>
+      <data key="max_r">0.4043792188167572</data>
+      <data key="mean_r">0.4043792188167572</data>
+      <data key="mean_r_DOT1L_complex">0.4043792188167572</data>
+      <data key="string_degree">0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="KMT2A">
+      <data key="module">MENIN-MLL-LEDGF</data>
+      <data key="tier">A</data>
+      <data key="recurrence">4</data>
+      <data key="recurrence_q_BH">0.015391</data>
+      <data key="max_r">0.5833701491355896</data>
+      <data key="mean_r">0.39127859845757484</data>
+      <data key="mean_r_DOT1L_complex">0.32724808156490326</data>
+      <data key="mean_r_MENIN_MLL">0.5833701491355896</data>
+      <data key="string_degree">21</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">true</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="LIPT2">
+      <data key="module">Mitochondrial OXPHOS</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.1981174498796463</data>
+      <data key="mean_r">0.17804591357707975</data>
+      <data key="mean_r_DOT1L_complex">0.1981174498796463</data>
+      <data key="mean_r_MENIN_MLL">0.1579743772745132</data>
+      <data key="string_degree">1</data>
+      <data key="module_stability">0.996</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="LSM12">
+      <data key="tier">B</data>
+      <data key="recurrence">3</data>
+      <data key="recurrence_q_BH">0.147097</data>
+      <data key="max_r">0.2175600081682205</data>
+      <data key="mean_r">0.1944467475016912</data>
+      <data key="mean_r_DOT1L_complex">0.1828901171684265</data>
+      <data key="mean_r_MENIN_MLL">0.2175600081682205</data>
+      <data key="string_degree">1</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="MBD2">
+      <data key="tier">B</data>
+      <data key="recurrence">3</data>
+      <data key="recurrence_q_BH">0.147097</data>
+      <data key="max_r">0.228394016623497</data>
+      <data key="mean_r">0.19769835968812302</data>
+      <data key="mean_r_DOT1L_complex">0.228394016623497</data>
+      <data key="mean_r_MENIN_MLL">0.18235053122043604</data>
+      <data key="string_degree">4</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="MBNL1">
+      <data key="tier">A</data>
+      <data key="recurrence">4</data>
+      <data key="recurrence_q_BH">0.015391</data>
+      <data key="max_r">0.284768134355545</data>
+      <data key="mean_r">0.23253738135099405</data>
+      <data key="mean_r_DOT1L_complex">0.22947162886460618</data>
+      <data key="mean_r_MENIN_MLL">0.2417346388101577</data>
+      <data key="string_degree">0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="MEAF6">
+      <data key="module">MOZ/MORF-HBO1 HAT</data>
+      <data key="tier">A</data>
+      <data key="recurrence">4</data>
+      <data key="recurrence_q_BH">0.015391</data>
+      <data key="max_r">0.3293321132659912</data>
+      <data key="mean_r">0.28339821100234985</data>
+      <data key="mean_r_DOT1L_complex">0.24383758008480072</data>
+      <data key="mean_r_MENIN_MLL">0.322958841919899</data>
+      <data key="string_degree">14</data>
+      <data key="module_stability">0.992</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="MED12">
+      <data key="module">Mediator complex</data>
+      <data key="tier">B</data>
+      <data key="recurrence">3</data>
+      <data key="recurrence_q_BH">0.147097</data>
+      <data key="max_r">0.3341005146503448</data>
+      <data key="mean_r">0.25119832158088684</data>
+      <data key="mean_r_DOT1L_complex">0.25119832158088684</data>
+      <data key="string_degree">15</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="MED13">
+      <data key="module">Mediator complex</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.3603730201721191</data>
+      <data key="mean_r">0.3144115805625915</data>
+      <data key="mean_r_DOT1L_complex">0.3144115805625915</data>
+      <data key="string_degree">12</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="MED13L">
+      <data key="module">Mediator complex</data>
+      <data key="tier">A</data>
+      <data key="recurrence">4</data>
+      <data key="recurrence_q_BH">0.015391</data>
+      <data key="max_r">0.3424199223518371</data>
+      <data key="mean_r">0.23561309650540346</data>
+      <data key="mean_r_DOT1L_complex">0.26077750325202936</data>
+      <data key="mean_r_MENIN_MLL">0.1601198762655258</data>
+      <data key="string_degree">14</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="MED15">
+      <data key="module">Mediator complex</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.2841934263706207</data>
+      <data key="mean_r">0.2571987807750702</data>
+      <data key="mean_r_DOT1L_complex">0.2571987807750702</data>
+      <data key="string_degree">14</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="MED16">
+      <data key="module">Mediator complex</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.2912959456443786</data>
+      <data key="mean_r">0.2742195129394531</data>
+      <data key="mean_r_DOT1L_complex">0.2742195129394531</data>
+      <data key="string_degree">15</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="MED19">
+      <data key="module">Mediator complex</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.299550712108612</data>
+      <data key="mean_r">0.2475797981023788</data>
+      <data key="mean_r_DOT1L_complex">0.2475797981023788</data>
+      <data key="string_degree">13</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="MED23">
+      <data key="module">Mediator complex</data>
+      <data key="tier">A</data>
+      <data key="recurrence">4</data>
+      <data key="recurrence_q_BH">0.015391</data>
+      <data key="max_r">0.3216031789779663</data>
+      <data key="mean_r">0.27759151905775065</data>
+      <data key="mean_r_DOT1L_complex">0.2903561691443125</data>
+      <data key="mean_r_MENIN_MLL">0.2392975687980651</data>
+      <data key="string_degree">13</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="MED24">
+      <data key="module">Mediator complex</data>
+      <data key="tier">A</data>
+      <data key="recurrence">4</data>
+      <data key="recurrence_q_BH">0.015391</data>
+      <data key="max_r">0.3014811873435974</data>
+      <data key="mean_r">0.237503457814455</data>
+      <data key="mean_r_DOT1L_complex">0.25748095909754437</data>
+      <data key="mean_r_MENIN_MLL">0.177570953965187</data>
+      <data key="string_degree">14</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="MEF2C">
+      <data key="tier">A</data>
+      <data key="recurrence">4</data>
+      <data key="recurrence_q_BH">0.015391</data>
+      <data key="max_r">0.2677940130233764</data>
+      <data key="mean_r">0.23457885161042208</data>
+      <data key="mean_r_DOT1L_complex">0.2297606542706489</data>
+      <data key="mean_r_MENIN_MLL">0.23939704895019526</data>
+      <data key="string_degree">5</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="MEN1">
+      <data key="module">MENIN-MLL-LEDGF</data>
+      <data key="tier">B</data>
+      <data key="recurrence">3</data>
+      <data key="recurrence_q_BH">0.147097</data>
+      <data key="max_r">0.5833701491355896</data>
+      <data key="mean_r">0.5301366547743479</data>
+      <data key="mean_r_DOT1L_complex">0.5035199075937271</data>
+      <data key="mean_r_MENIN_MLL">0.5833701491355896</data>
+      <data key="string_degree">14</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">true</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="MICOS10">
+      <data key="module">Mitochondrial OXPHOS</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.2031411826610565</data>
+      <data key="mean_r">0.1963473707437515</data>
+      <data key="mean_r_DOT1L_complex">0.1963473707437515</data>
+      <data key="string_degree">2</data>
+      <data key="module_stability">0.996</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="MLLT1">
+      <data key="module">H3K79 writer (DotCom)</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.3770552575588226</data>
+      <data key="mean_r">0.2859377935528755</data>
+      <data key="mean_r_DOT1L_complex">0.3770552575588226</data>
+      <data key="mean_r_MENIN_MLL">0.1948203295469284</data>
+      <data key="string_degree">20</data>
+      <data key="module_stability">0.913</data>
+      <data key="is_seed">true</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="MLLT10">
+      <data key="module">H3K79 writer (DotCom)</data>
+      <data key="tier">B</data>
+      <data key="recurrence">3</data>
+      <data key="recurrence_q_BH">0.147097</data>
+      <data key="max_r">0.4508180916309356</data>
+      <data key="mean_r">0.38354230920473736</data>
+      <data key="mean_r_DOT1L_complex">0.4508180916309356</data>
+      <data key="mean_r_MENIN_MLL">0.3499044179916382</data>
+      <data key="string_degree">10</data>
+      <data key="module_stability">0.913</data>
+      <data key="is_seed">true</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="MORF4L1">
+      <data key="module">MOZ/MORF-HBO1 HAT</data>
+      <data key="tier">A</data>
+      <data key="recurrence">5</data>
+      <data key="recurrence_q_BH">0.001557</data>
+      <data key="max_r">0.2496592700481414</data>
+      <data key="mean_r">0.21592448651790613</data>
+      <data key="mean_r_DOT1L_complex">0.21059689919153843</data>
+      <data key="mean_r_MENIN_MLL">0.2239158675074577</data>
+      <data key="string_degree">16</data>
+      <data key="module_stability">0.992</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="MRGBP">
+      <data key="module">MOZ/MORF-HBO1 HAT</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.2066355347633361</data>
+      <data key="mean_r">0.1900795549154281</data>
+      <data key="mean_r_MENIN_MLL">0.1900795549154281</data>
+      <data key="string_degree">9</data>
+      <data key="module_stability">0.992</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="MRPL43">
+      <data key="module">Mitochondrial OXPHOS</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.2185481488704681</data>
+      <data key="mean_r">0.1809316202998161</data>
+      <data key="mean_r_DOT1L_complex">0.1809316202998161</data>
+      <data key="string_degree">7</data>
+      <data key="module_stability">0.97</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="MSL3">
+      <data key="module">MOZ/MORF-HBO1 HAT</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.1913435608148574</data>
+      <data key="mean_r">0.18920461088418955</data>
+      <data key="mean_r_MENIN_MLL">0.18920461088418955</data>
+      <data key="string_degree">9</data>
+      <data key="module_stability">0.992</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="MTA2">
+      <data key="tier">B</data>
+      <data key="recurrence">3</data>
+      <data key="recurrence_q_BH">0.147097</data>
+      <data key="max_r">0.259243369102478</data>
+      <data key="mean_r">0.2156572490930557</data>
+      <data key="mean_r_DOT1L_complex">0.22109840810298917</data>
+      <data key="mean_r_MENIN_MLL">0.2047749310731887</data>
+      <data key="string_degree">11</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="MTERF4">
+      <data key="module">Mitochondrial OXPHOS</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.2004423588514328</data>
+      <data key="mean_r">0.17968227714300156</data>
+      <data key="mean_r_DOT1L_complex">0.2004423588514328</data>
+      <data key="mean_r_MENIN_MLL">0.1589221954345703</data>
+      <data key="string_degree">1</data>
+      <data key="module_stability">0.97</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="MTHFD1">
+      <data key="module">Nucleotide biosynthesis</data>
+      <data key="tier">B</data>
+      <data key="recurrence">3</data>
+      <data key="recurrence_q_BH">0.147097</data>
+      <data key="max_r">0.2619176805019378</data>
+      <data key="mean_r">0.2080594698588053</data>
+      <data key="mean_r_DOT1L_complex">0.2080594698588053</data>
+      <data key="string_degree">6</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="MYB">
+      <data key="module">MYB-p300 coactivator</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.2199992388486862</data>
+      <data key="mean_r">0.21873102337121958</data>
+      <data key="mean_r_DOT1L_complex">0.21873102337121958</data>
+      <data key="string_degree">8</data>
+      <data key="module_stability">0.916</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="NAMPT">
+      <data key="module">NAD synthesis</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.1996082514524459</data>
+      <data key="mean_r">0.19727869331836695</data>
+      <data key="mean_r_DOT1L_complex">0.19727869331836695</data>
+      <data key="string_degree">4</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="NMNAT1">
+      <data key="module">NAD synthesis</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.193018689751625</data>
+      <data key="mean_r">0.1877798736095428</data>
+      <data key="mean_r_DOT1L_complex">0.1877798736095428</data>
+      <data key="string_degree">1</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="OR2J1">
+      <data key="tier">C</data>
+      <data key="recurrence">1</data>
+      <data key="recurrence_q_BH">1.0</data>
+      <data key="max_r">0.3617649376392364</data>
+      <data key="mean_r">0.3617649376392364</data>
+      <data key="mean_r_DOT1L_complex">0.3617649376392364</data>
+      <data key="string_degree">0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="PAICS">
+      <data key="module">Nucleotide biosynthesis</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.2238192856311798</data>
+      <data key="mean_r">0.20267312228679657</data>
+      <data key="mean_r_DOT1L_complex">0.20267312228679657</data>
+      <data key="string_degree">5</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="PDSS2">
+      <data key="module">Mitochondrial OXPHOS</data>
+      <data key="tier">B</data>
+      <data key="recurrence">3</data>
+      <data key="recurrence_q_BH">0.147097</data>
+      <data key="max_r">0.2392893731594085</data>
+      <data key="mean_r">0.18645840386549625</data>
+      <data key="mean_r_DOT1L_complex">0.19835601001977915</data>
+      <data key="mean_r_MENIN_MLL">0.1626631915569305</data>
+      <data key="string_degree">2</data>
+      <data key="module_stability">0.996</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="PDXK">
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.195346787571907</data>
+      <data key="mean_r">0.19218776375055308</data>
+      <data key="mean_r_DOT1L_complex">0.19218776375055308</data>
+      <data key="string_degree">1</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="PFAS">
+      <data key="module">Nucleotide biosynthesis</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.2591411173343658</data>
+      <data key="mean_r">0.22202996909618375</data>
+      <data key="mean_r_DOT1L_complex">0.22202996909618375</data>
+      <data key="string_degree">3</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="PGM3">
+      <data key="module">Heme / sugar metabolism</data>
+      <data key="tier">B</data>
+      <data key="recurrence">3</data>
+      <data key="recurrence_q_BH">0.147097</data>
+      <data key="max_r">0.2567773163318634</data>
+      <data key="mean_r">0.1952271262804667</data>
+      <data key="mean_r_DOT1L_complex">0.2567773163318634</data>
+      <data key="mean_r_MENIN_MLL">0.16445203125476834</data>
+      <data key="string_degree">3</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="PMM2">
+      <data key="module">Heme / sugar metabolism</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.2180988788604736</data>
+      <data key="mean_r">0.19286751002073285</data>
+      <data key="mean_r_DOT1L_complex">0.2180988788604736</data>
+      <data key="mean_r_MENIN_MLL">0.1676361411809921</data>
+      <data key="string_degree">1</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="POT1">
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.1990636736154556</data>
+      <data key="mean_r">0.18109054118394852</data>
+      <data key="mean_r_DOT1L_complex">0.1990636736154556</data>
+      <data key="mean_r_MENIN_MLL">0.1631174087524414</data>
+      <data key="string_degree">1</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="POU2AF1">
+      <data key="tier">B</data>
+      <data key="recurrence">3</data>
+      <data key="recurrence_q_BH">0.147097</data>
+      <data key="max_r">0.255889743566513</data>
+      <data key="mean_r">0.22530558705329887</data>
+      <data key="mean_r_DOT1L_complex">0.21001350879669184</data>
+      <data key="mean_r_MENIN_MLL">0.255889743566513</data>
+      <data key="string_degree">4</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="PPCDC">
+      <data key="tier">B</data>
+      <data key="recurrence">3</data>
+      <data key="recurrence_q_BH">0.147097</data>
+      <data key="max_r">0.2380213290452957</data>
+      <data key="mean_r">0.19891952474912009</data>
+      <data key="mean_r_DOT1L_complex">0.2169472649693489</data>
+      <data key="mean_r_MENIN_MLL">0.1628640443086624</data>
+      <data key="string_degree">2</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="PPCS">
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.2649649381637573</data>
+      <data key="mean_r">0.23124610632658</data>
+      <data key="mean_r_DOT1L_complex">0.23124610632658</data>
+      <data key="string_degree">1</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="PSIP1">
+      <data key="module">MENIN-MLL-LEDGF</data>
+      <data key="tier">A</data>
+      <data key="recurrence">4</data>
+      <data key="recurrence_q_BH">0.015391</data>
+      <data key="max_r">0.5287994742393494</data>
+      <data key="mean_r">0.38178520649671555</data>
+      <data key="mean_r_DOT1L_complex">0.31204812228679657</data>
+      <data key="mean_r_MENIN_MLL">0.4515222907066345</data>
+      <data key="string_degree">12</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="RCC2">
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.1919072419404983</data>
+      <data key="mean_r">0.1771965250372886</data>
+      <data key="mean_r_DOT1L_complex">0.1919072419404983</data>
+      <data key="mean_r_MENIN_MLL">0.1624858081340789</data>
+      <data key="string_degree">0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="RNASEH2A">
+      <data key="module">Mitochondrial OXPHOS</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.1949987560510635</data>
+      <data key="mean_r">0.1793740093708038</data>
+      <data key="mean_r_DOT1L_complex">0.1949987560510635</data>
+      <data key="mean_r_MENIN_MLL">0.1637492626905441</data>
+      <data key="string_degree">1</data>
+      <data key="module_stability">0.996</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="SDHA">
+      <data key="module">Mitochondrial OXPHOS</data>
+      <data key="tier">A</data>
+      <data key="recurrence">4</data>
+      <data key="recurrence_q_BH">0.015391</data>
+      <data key="max_r">0.2541019022464752</data>
+      <data key="mean_r">0.1940669305622577</data>
+      <data key="mean_r_DOT1L_complex">0.22511973232030866</data>
+      <data key="mean_r_MENIN_MLL">0.1630141288042068</data>
+      <data key="string_degree">14</data>
+      <data key="module_stability">0.996</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="SDHB">
+      <data key="module">Mitochondrial OXPHOS</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.2639609575271606</data>
+      <data key="mean_r">0.23414806276559824</data>
+      <data key="mean_r_DOT1L_complex">0.23414806276559824</data>
+      <data key="string_degree">11</data>
+      <data key="module_stability">0.996</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="SGF29">
+      <data key="module">SAGA complex</data>
+      <data key="tier">B</data>
+      <data key="recurrence">3</data>
+      <data key="recurrence_q_BH">0.147097</data>
+      <data key="max_r">0.3809764981269836</data>
+      <data key="mean_r">0.29051930209000904</data>
+      <data key="mean_r_DOT1L_complex">0.29051930209000904</data>
+      <data key="string_degree">14</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="SIK3">
+      <data key="tier">A</data>
+      <data key="recurrence">4</data>
+      <data key="recurrence_q_BH">0.015391</data>
+      <data key="max_r">0.2918048202991485</data>
+      <data key="mean_r">0.2441714704036712</data>
+      <data key="mean_r_DOT1L_complex">0.21876653283834452</data>
+      <data key="mean_r_MENIN_MLL">0.2695764079689979</data>
+      <data key="string_degree">1</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="SLC20A1">
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.2105690985918045</data>
+      <data key="mean_r">0.1891767680644989</data>
+      <data key="mean_r_DOT1L_complex">0.2105690985918045</data>
+      <data key="mean_r_MENIN_MLL">0.1677844375371933</data>
+      <data key="string_degree">0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="SMARCA5">
+      <data key="module">H3K79 writer (DotCom)</data>
+      <data key="tier">B</data>
+      <data key="recurrence">3</data>
+      <data key="recurrence_q_BH">0.147097</data>
+      <data key="max_r">0.2417086362838745</data>
+      <data key="mean_r">0.19688364366690314</data>
+      <data key="mean_r_DOT1L_complex">0.19504295289516446</data>
+      <data key="mean_r_MENIN_MLL">0.2005650252103805</data>
+      <data key="string_degree">14</data>
+      <data key="module_stability">0.795</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="SMARCD1">
+      <data key="module">ncBAF</data>
+      <data key="tier">B</data>
+      <data key="recurrence">3</data>
+      <data key="recurrence_q_BH">0.147097</data>
+      <data key="max_r">0.2129945158958435</data>
+      <data key="mean_r">0.1911348650852839</data>
+      <data key="mean_r_DOT1L_complex">0.1911348650852839</data>
+      <data key="string_degree">6</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="STK11">
+      <data key="tier">B</data>
+      <data key="recurrence">3</data>
+      <data key="recurrence_q_BH">0.147097</data>
+      <data key="max_r">0.2368751019239425</data>
+      <data key="mean_r">0.2137891997893651</data>
+      <data key="mean_r_DOT1L_complex">0.2368751019239425</data>
+      <data key="mean_r_MENIN_MLL">0.20224624872207642</data>
+      <data key="string_degree">8</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="SUPT20H">
+      <data key="module">SAGA complex</data>
+      <data key="tier">A</data>
+      <data key="recurrence">4</data>
+      <data key="recurrence_q_BH">0.015391</data>
+      <data key="max_r">0.3720156252384186</data>
+      <data key="mean_r">0.2691066078841686</data>
+      <data key="mean_r_DOT1L_complex">0.2691066078841686</data>
+      <data key="string_degree">11</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="SUPT7L">
+      <data key="module">SAGA complex</data>
+      <data key="tier">A</data>
+      <data key="recurrence">5</data>
+      <data key="recurrence_q_BH">0.001557</data>
+      <data key="max_r">0.3023601472377777</data>
+      <data key="mean_r">0.24488117396831513</data>
+      <data key="mean_r_DOT1L_complex">0.27860187490781146</data>
+      <data key="mean_r_MENIN_MLL">0.19430012255907053</data>
+      <data key="string_degree">12</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="SURF1">
+      <data key="module">Mitochondrial OXPHOS</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.173743188381195</data>
+      <data key="mean_r">0.1656623855233192</data>
+      <data key="mean_r_DOT1L_complex">0.1575815826654434</data>
+      <data key="mean_r_MENIN_MLL">0.173743188381195</data>
+      <data key="string_degree">8</data>
+      <data key="module_stability">0.996</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="SUZ12">
+      <data key="module">PRC2</data>
+      <data key="tier">A</data>
+      <data key="recurrence">5</data>
+      <data key="recurrence_q_BH">0.001557</data>
+      <data key="max_r">0.3526123762130737</data>
+      <data key="mean_r">0.2516003459692001</data>
+      <data key="mean_r_DOT1L_complex">0.2600910166899362</data>
+      <data key="mean_r_MENIN_MLL">0.2388643398880958</data>
+      <data key="string_degree">11</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="TADA1">
+      <data key="module">SAGA complex</data>
+      <data key="tier">A</data>
+      <data key="recurrence">5</data>
+      <data key="recurrence_q_BH">0.001557</data>
+      <data key="max_r">0.3564675450325012</data>
+      <data key="mean_r">0.2448307007551193</data>
+      <data key="mean_r_DOT1L_complex">0.26541125774383545</data>
+      <data key="mean_r_MENIN_MLL">0.1625084728002548</data>
+      <data key="string_degree">11</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="TADA2B">
+      <data key="module">SAGA complex</data>
+      <data key="tier">A</data>
+      <data key="recurrence">5</data>
+      <data key="recurrence_q_BH">0.001557</data>
+      <data key="max_r">0.3784942924976349</data>
+      <data key="mean_r">0.2725253880023956</data>
+      <data key="mean_r_DOT1L_complex">0.3332471350828807</data>
+      <data key="mean_r_MENIN_MLL">0.18144276738166804</data>
+      <data key="string_degree">13</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="TADA3">
+      <data key="module">SAGA complex</data>
+      <data key="tier">B</data>
+      <data key="recurrence">3</data>
+      <data key="recurrence_q_BH">0.147097</data>
+      <data key="max_r">0.2922848165035248</data>
+      <data key="mean_r">0.2552170654137929</data>
+      <data key="mean_r_DOT1L_complex">0.2552170654137929</data>
+      <data key="string_degree">14</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="TAF10">
+      <data key="module">SAGA complex</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.1901975572109222</data>
+      <data key="mean_r">0.17124841362237925</data>
+      <data key="mean_r_DOT1L_complex">0.17124841362237925</data>
+      <data key="string_degree">19</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="TAF13">
+      <data key="module">Mediator complex</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.2181225568056106</data>
+      <data key="mean_r">0.18027378618717188</data>
+      <data key="mean_r_DOT1L_complex">0.18027378618717188</data>
+      <data key="string_degree">11</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="TAF5L">
+      <data key="module">SAGA complex</data>
+      <data key="tier">A</data>
+      <data key="recurrence">4</data>
+      <data key="recurrence_q_BH">0.015391</data>
+      <data key="max_r">0.3569329679012298</data>
+      <data key="mean_r">0.27948638051748276</data>
+      <data key="mean_r_DOT1L_complex">0.3163554569085439</data>
+      <data key="mean_r_MENIN_MLL">0.1688791513442993</data>
+      <data key="string_degree">14</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="TAF6L">
+      <data key="module">SAGA complex</data>
+      <data key="tier">B</data>
+      <data key="recurrence">3</data>
+      <data key="recurrence_q_BH">0.147097</data>
+      <data key="max_r">0.2717285752296448</data>
+      <data key="mean_r">0.24649151662985483</data>
+      <data key="mean_r_DOT1L_complex">0.24649151662985483</data>
+      <data key="string_degree">15</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="TCF3">
+      <data key="module">Lymphoid/myeloid TFs</data>
+      <data key="tier">A</data>
+      <data key="recurrence">4</data>
+      <data key="recurrence_q_BH">0.015391</data>
+      <data key="max_r">0.2281967103481292</data>
+      <data key="mean_r">0.19039209932088846</data>
+      <data key="mean_r_DOT1L_complex">0.19362191855907437</data>
+      <data key="mean_r_MENIN_MLL">0.1807026416063308</data>
+      <data key="string_degree">14</data>
+      <data key="module_stability">0.953</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="TEX48">
+      <data key="module">NAD synthesis</data>
+      <data key="tier">C</data>
+      <data key="recurrence">1</data>
+      <data key="recurrence_q_BH">1.0</data>
+      <data key="max_r">0.4392691552639007</data>
+      <data key="mean_r">0.4392691552639007</data>
+      <data key="mean_r_MENIN_MLL">0.4392691552639007</data>
+      <data key="string_degree">1</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="TUBB2A">
+      <data key="module">Mitochondrial OXPHOS</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.1596342921257019</data>
+      <data key="mean_r">0.15586371719837183</data>
+      <data key="mean_r_DOT1L_complex">0.1520931422710418</data>
+      <data key="mean_r_MENIN_MLL">0.1596342921257019</data>
+      <data key="string_degree">4</data>
+      <data key="module_stability">0.996</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="UQCRC1">
+      <data key="module">Mitochondrial OXPHOS</data>
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.2546150982379913</data>
+      <data key="mean_r">0.21831629425287244</data>
+      <data key="mean_r_DOT1L_complex">0.21831629425287244</data>
+      <data key="string_degree">11</data>
+      <data key="module_stability">0.996</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="USP22">
+      <data key="module">SAGA complex</data>
+      <data key="tier">B</data>
+      <data key="recurrence">3</data>
+      <data key="recurrence_q_BH">0.147097</data>
+      <data key="max_r">0.2563732862472534</data>
+      <data key="mean_r">0.23355751732985175</data>
+      <data key="mean_r_DOT1L_complex">0.23355751732985175</data>
+      <data key="string_degree">12</data>
+      <data key="module_stability">1.0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="WDR20">
+      <data key="tier">C</data>
+      <data key="recurrence">2</data>
+      <data key="recurrence_q_BH">0.849007</data>
+      <data key="max_r">0.2505863010883331</data>
+      <data key="mean_r">0.22964630275964734</data>
+      <data key="mean_r_DOT1L_complex">0.22964630275964734</data>
+      <data key="string_degree">0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">false</data>
+    </node>
+    <node id="ZFAT">
+      <data key="tier">B</data>
+      <data key="recurrence">3</data>
+      <data key="recurrence_q_BH">0.147097</data>
+      <data key="max_r">0.1795361191034317</data>
+      <data key="mean_r">0.16938713689645132</data>
+      <data key="mean_r_DOT1L_complex">0.1795361191034317</data>
+      <data key="mean_r_MENIN_MLL">0.16431264579296112</data>
+      <data key="string_degree">0</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="ZFP64">
+      <data key="tier">A</data>
+      <data key="recurrence">4</data>
+      <data key="recurrence_q_BH">0.015391</data>
+      <data key="max_r">0.3451253473758697</data>
+      <data key="mean_r">0.2660599313676357</data>
+      <data key="mean_r_DOT1L_complex">0.1977075710892677</data>
+      <data key="mean_r_MENIN_MLL">0.3344122916460037</data>
+      <data key="string_degree">1</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="ZMYND8">
+      <data key="tier">A</data>
+      <data key="recurrence">4</data>
+      <data key="recurrence_q_BH">0.015391</data>
+      <data key="max_r">0.2471362799406051</data>
+      <data key="mean_r">0.21185617893934244</data>
+      <data key="mean_r_DOT1L_complex">0.21680821975072218</data>
+      <data key="mean_r_MENIN_MLL">0.1970000565052032</data>
+      <data key="string_degree">3</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <node id="ZNF592">
+      <data key="tier">A</data>
+      <data key="recurrence">4</data>
+      <data key="recurrence_q_BH">0.015391</data>
+      <data key="max_r">0.216391310095787</data>
+      <data key="mean_r">0.20220075920224184</data>
+      <data key="mean_r_DOT1L_complex">0.20244882007439924</data>
+      <data key="mean_r_MENIN_MLL">0.2014565765857696</data>
+      <data key="string_degree">1</data>
+      <data key="is_seed">false</data>
+      <data key="high_confidence">true</data>
+    </node>
+    <edge id="e0" source="UQCRC1" target="TUBB2A"><data key="edge_type">string_association</data><data key="weight">0.431</data></edge>
+    <edge id="e1" source="UQCRC1" target="FH"><data key="edge_type">string_association</data><data key="weight">0.474</data></edge>
+    <edge id="e2" source="UQCRC1" target="RNASEH2A"><data key="edge_type">string_association</data><data key="weight">0.493</data></edge>
+    <edge id="e3" source="UQCRC1" target="MRPL43"><data key="edge_type">string_association</data><data key="weight">0.557</data></edge>
+    <edge id="e4" source="UQCRC1" target="SURF1"><data key="edge_type">string_association</data><data key="weight">0.666</data></edge>
+    <edge id="e5" source="UQCRC1" target="DLST"><data key="edge_type">string_association</data><data key="weight">0.684</data></edge>
+    <edge id="e6" source="UQCRC1" target="BCS1L"><data key="edge_type">string_association</data><data key="weight">0.831</data></edge>
+    <edge id="e7" source="UQCRC1" target="SDHB"><data key="edge_type">string_association</data><data key="weight">0.938</data></edge>
+    <edge id="e8" source="UQCRC1" target="SDHA"><data key="edge_type">string_association</data><data key="weight">0.968</data></edge>
+    <edge id="e9" source="UQCRC1" target="COX6B1"><data key="edge_type">string_association</data><data key="weight">0.989</data></edge>
+    <edge id="e10" source="UQCRC1" target="COX5B"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e11" source="ZFP64" target="SIK3"><data key="edge_type">string_association</data><data key="weight">0.426</data></edge>
+    <edge id="e12" source="NAMPT" target="TEX48"><data key="edge_type">string_association</data><data key="weight">0.402</data></edge>
+    <edge id="e13" source="NAMPT" target="STK11"><data key="edge_type">string_association</data><data key="weight">0.407</data></edge>
+    <edge id="e14" source="NAMPT" target="ADIPOR2"><data key="edge_type">string_association</data><data key="weight">0.821</data></edge>
+    <edge id="e15" source="NAMPT" target="NMNAT1"><data key="edge_type">string_association</data><data key="weight">0.992</data></edge>
+    <edge id="e16" source="JADE1" target="KAT6A"><data key="edge_type">string_association</data><data key="weight">0.482</data></edge>
+    <edge id="e17" source="JADE1" target="KAT6B"><data key="edge_type">string_association</data><data key="weight">0.501</data></edge>
+    <edge id="e18" source="JADE1" target="JADE2"><data key="edge_type">string_association</data><data key="weight">0.613</data></edge>
+    <edge id="e19" source="JADE1" target="BRPF1"><data key="edge_type">string_association</data><data key="weight">0.652</data></edge>
+    <edge id="e20" source="JADE1" target="ING5"><data key="edge_type">string_association</data><data key="weight">0.99</data></edge>
+    <edge id="e21" source="JADE1" target="MEAF6"><data key="edge_type">string_association</data><data key="weight">0.996</data></edge>
+    <edge id="e22" source="JADE1" target="KAT7"><data key="edge_type">string_association</data><data key="weight">0.998</data></edge>
+    <edge id="e23" source="ATIC" target="CARS2"><data key="edge_type">string_association</data><data key="weight">0.471</data></edge>
+    <edge id="e24" source="ATIC" target="CTBP1"><data key="edge_type">string_association</data><data key="weight">0.542</data></edge>
+    <edge id="e25" source="ATIC" target="FH"><data key="edge_type">string_association</data><data key="weight">0.622</data></edge>
+    <edge id="e26" source="ATIC" target="CAD"><data key="edge_type">string_association</data><data key="weight">0.658</data></edge>
+    <edge id="e27" source="ATIC" target="FPGS"><data key="edge_type">string_association</data><data key="weight">0.785</data></edge>
+    <edge id="e28" source="ATIC" target="PFAS"><data key="edge_type">string_association</data><data key="weight">0.819</data></edge>
+    <edge id="e29" source="ATIC" target="PAICS"><data key="edge_type">string_association</data><data key="weight">0.997</data></edge>
+    <edge id="e30" source="ATIC" target="MTHFD1"><data key="edge_type">string_association</data><data key="weight">0.998</data></edge>
+    <edge id="e31" source="MLLT1" target="KAT6B"><data key="edge_type">string_association</data><data key="weight">0.4</data></edge>
+    <edge id="e32" source="MLLT1" target="TAF5L"><data key="edge_type">string_association</data><data key="weight">0.415</data></edge>
+    <edge id="e33" source="MLLT1" target="CBFB"><data key="edge_type">string_association</data><data key="weight">0.418</data></edge>
+    <edge id="e34" source="MLLT1" target="TAF6L"><data key="edge_type">string_association</data><data key="weight">0.42</data></edge>
+    <edge id="e35" source="MLLT1" target="TADA3"><data key="edge_type">string_association</data><data key="weight">0.426</data></edge>
+    <edge id="e36" source="MLLT1" target="BRD9"><data key="edge_type">string_association</data><data key="weight">0.43</data></edge>
+    <edge id="e37" source="MLLT1" target="PSIP1"><data key="edge_type">string_association</data><data key="weight">0.482</data></edge>
+    <edge id="e38" source="MLLT1" target="TAF13"><data key="edge_type">string_association</data><data key="weight">0.484</data></edge>
+    <edge id="e39" source="MLLT1" target="TAF10"><data key="edge_type">string_association</data><data key="weight">0.485</data></edge>
+    <edge id="e40" source="MLLT1" target="TCF3"><data key="edge_type">string_association</data><data key="weight">0.496</data></edge>
+    <edge id="e41" source="MLLT1" target="MORF4L1"><data key="edge_type">string_association</data><data key="weight">0.652</data></edge>
+    <edge id="e42" source="MLLT1" target="MSL3"><data key="edge_type">string_association</data><data key="weight">0.658</data></edge>
+    <edge id="e43" source="MLLT1" target="MEN1"><data key="edge_type">string_association</data><data key="weight">0.684</data></edge>
+    <edge id="e44" source="MLLT1" target="MRGBP"><data key="edge_type">string_association</data><data key="weight">0.729</data></edge>
+    <edge id="e45" source="MLLT1" target="MEAF6"><data key="edge_type">string_association</data><data key="weight">0.741</data></edge>
+    <edge id="e46" source="MLLT1" target="KAT6A"><data key="edge_type">string_association</data><data key="weight">0.741</data></edge>
+    <edge id="e47" source="MLLT1" target="KMT2A"><data key="edge_type">string_association</data><data key="weight">0.962</data></edge>
+    <edge id="e48" source="MLLT1" target="MLLT10"><data key="edge_type">string_association</data><data key="weight">0.986</data></edge>
+    <edge id="e49" source="MLLT1" target="DOT1L"><data key="edge_type">string_association</data><data key="weight">0.995</data></edge>
+    <edge id="e50" source="MLLT1" target="AFF1"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e51" source="MBD2" target="EZH2"><data key="edge_type">string_association</data><data key="weight">0.448</data></edge>
+    <edge id="e52" source="MBD2" target="ZMYND8"><data key="edge_type">string_association</data><data key="weight">0.551</data></edge>
+    <edge id="e53" source="MBD2" target="SMARCA5"><data key="edge_type">string_association</data><data key="weight">0.689</data></edge>
+    <edge id="e54" source="MBD2" target="MTA2"><data key="edge_type">string_association</data><data key="weight">0.977</data></edge>
+    <edge id="e55" source="CARS2" target="ALAD"><data key="edge_type">string_association</data><data key="weight">0.457</data></edge>
+    <edge id="e56" source="CARS2" target="SDHA"><data key="edge_type">string_association</data><data key="weight">0.468</data></edge>
+    <edge id="e57" source="CARS2" target="DARS2"><data key="edge_type">string_association</data><data key="weight">0.743</data></edge>
+    <edge id="e58" source="TAF5L" target="BRPF1"><data key="edge_type">string_association</data><data key="weight">0.542</data></edge>
+    <edge id="e59" source="TAF5L" target="TAF13"><data key="edge_type">string_association</data><data key="weight">0.929</data></edge>
+    <edge id="e60" source="TAF5L" target="USP22"><data key="edge_type">string_association</data><data key="weight">0.989</data></edge>
+    <edge id="e61" source="TAF5L" target="TADA2B"><data key="edge_type">string_association</data><data key="weight">0.995</data></edge>
+    <edge id="e62" source="TAF5L" target="ATXN7"><data key="edge_type">string_association</data><data key="weight">0.996</data></edge>
+    <edge id="e63" source="TAF5L" target="ATXN7L3"><data key="edge_type">string_association</data><data key="weight">0.996</data></edge>
+    <edge id="e64" source="TAF5L" target="SGF29"><data key="edge_type">string_association</data><data key="weight">0.997</data></edge>
+    <edge id="e65" source="TAF5L" target="SUPT7L"><data key="edge_type">string_association</data><data key="weight">0.998</data></edge>
+    <edge id="e66" source="TAF5L" target="TAF10"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e67" source="TAF5L" target="TADA1"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e68" source="TAF5L" target="TADA3"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e69" source="TAF5L" target="SUPT20H"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e70" source="TAF5L" target="TAF6L"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e71" source="CAB39" target="STK11"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e72" source="COX5B" target="COX16"><data key="edge_type">string_association</data><data key="weight">0.414</data></edge>
+    <edge id="e73" source="COX5B" target="DLST"><data key="edge_type">string_association</data><data key="weight">0.464</data></edge>
+    <edge id="e74" source="COX5B" target="SURF1"><data key="edge_type">string_association</data><data key="weight">0.548</data></edge>
+    <edge id="e75" source="COX5B" target="MICOS10"><data key="edge_type">string_association</data><data key="weight">0.585</data></edge>
+    <edge id="e76" source="COX5B" target="BCS1L"><data key="edge_type">string_association</data><data key="weight">0.717</data></edge>
+    <edge id="e77" source="COX5B" target="SDHA"><data key="edge_type">string_association</data><data key="weight">0.925</data></edge>
+    <edge id="e78" source="COX5B" target="SDHB"><data key="edge_type">string_association</data><data key="weight">0.972</data></edge>
+    <edge id="e79" source="COX5B" target="COX6B1"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e80" source="KAT7" target="KMT2A"><data key="edge_type">string_association</data><data key="weight">0.402</data></edge>
+    <edge id="e81" source="KAT7" target="MSL3"><data key="edge_type">string_association</data><data key="weight">0.473</data></edge>
+    <edge id="e82" source="KAT7" target="DOT1L"><data key="edge_type">string_association</data><data key="weight">0.488</data></edge>
+    <edge id="e83" source="KAT7" target="SMARCA5"><data key="edge_type">string_association</data><data key="weight">0.493</data></edge>
+    <edge id="e84" source="KAT7" target="MRGBP"><data key="edge_type">string_association</data><data key="weight">0.623</data></edge>
+    <edge id="e85" source="KAT7" target="MORF4L1"><data key="edge_type">string_association</data><data key="weight">0.693</data></edge>
+    <edge id="e86" source="KAT7" target="EP300"><data key="edge_type">string_association</data><data key="weight">0.822</data></edge>
+    <edge id="e87" source="KAT7" target="KAT6B"><data key="edge_type">string_association</data><data key="weight">0.955</data></edge>
+    <edge id="e88" source="KAT7" target="KAT6A"><data key="edge_type">string_association</data><data key="weight">0.96</data></edge>
+    <edge id="e89" source="KAT7" target="JADE2"><data key="edge_type">string_association</data><data key="weight">0.973</data></edge>
+    <edge id="e90" source="KAT7" target="BRPF1"><data key="edge_type">string_association</data><data key="weight">0.997</data></edge>
+    <edge id="e91" source="KAT7" target="MEAF6"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e92" source="KAT7" target="ING5"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e93" source="USP22" target="EZH2"><data key="edge_type">string_association</data><data key="weight">0.469</data></edge>
+    <edge id="e94" source="USP22" target="SUPT7L"><data key="edge_type">string_association</data><data key="weight">0.974</data></edge>
+    <edge id="e95" source="USP22" target="TADA2B"><data key="edge_type">string_association</data><data key="weight">0.976</data></edge>
+    <edge id="e96" source="USP22" target="TADA1"><data key="edge_type">string_association</data><data key="weight">0.984</data></edge>
+    <edge id="e97" source="USP22" target="TAF6L"><data key="edge_type">string_association</data><data key="weight">0.985</data></edge>
+    <edge id="e98" source="USP22" target="SUPT20H"><data key="edge_type">string_association</data><data key="weight">0.987</data></edge>
+    <edge id="e99" source="USP22" target="TAF10"><data key="edge_type">string_association</data><data key="weight">0.997</data></edge>
+    <edge id="e100" source="USP22" target="TADA3"><data key="edge_type">string_association</data><data key="weight">0.997</data></edge>
+    <edge id="e101" source="USP22" target="SGF29"><data key="edge_type">string_association</data><data key="weight">0.998</data></edge>
+    <edge id="e102" source="USP22" target="ATXN7"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e103" source="USP22" target="ATXN7L3"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e104" source="TCF3" target="CCND3"><data key="edge_type">string_association</data><data key="weight">0.412</data></edge>
+    <edge id="e105" source="TCF3" target="BCL2"><data key="edge_type">string_association</data><data key="weight">0.415</data></edge>
+    <edge id="e106" source="TCF3" target="MLLT10"><data key="edge_type">string_association</data><data key="weight">0.426</data></edge>
+    <edge id="e107" source="TCF3" target="POU2AF1"><data key="edge_type">string_association</data><data key="weight">0.429</data></edge>
+    <edge id="e108" source="TCF3" target="IRF8"><data key="edge_type">string_association</data><data key="weight">0.466</data></edge>
+    <edge id="e109" source="TCF3" target="KMT2A"><data key="edge_type">string_association</data><data key="weight">0.526</data></edge>
+    <edge id="e110" source="TCF3" target="MEF2C"><data key="edge_type">string_association</data><data key="weight">0.634</data></edge>
+    <edge id="e111" source="TCF3" target="AFF1"><data key="edge_type">string_association</data><data key="weight">0.691</data></edge>
+    <edge id="e112" source="TCF3" target="MYB"><data key="edge_type">string_association</data><data key="weight">0.691</data></edge>
+    <edge id="e113" source="TCF3" target="IKZF1"><data key="edge_type">string_association</data><data key="weight">0.708</data></edge>
+    <edge id="e114" source="TCF3" target="CBFB"><data key="edge_type">string_association</data><data key="weight">0.932</data></edge>
+    <edge id="e115" source="TCF3" target="EP300"><data key="edge_type">string_association</data><data key="weight">0.941</data></edge>
+    <edge id="e116" source="TCF3" target="EBF1"><data key="edge_type">string_association</data><data key="weight">0.948</data></edge>
+    <edge id="e117" source="MED15" target="EBF1"><data key="edge_type">string_association</data><data key="weight">0.499</data></edge>
+    <edge id="e118" source="MED15" target="EP300"><data key="edge_type">string_association</data><data key="weight">0.771</data></edge>
+    <edge id="e119" source="MED15" target="H4C9"><data key="edge_type">string_association</data><data key="weight">0.8</data></edge>
+    <edge id="e120" source="MED15" target="TAF13"><data key="edge_type">string_association</data><data key="weight">0.8</data></edge>
+    <edge id="e121" source="MED15" target="TAF10"><data key="edge_type">string_association</data><data key="weight">0.817</data></edge>
+    <edge id="e122" source="MED15" target="MYB"><data key="edge_type">string_association</data><data key="weight">0.841</data></edge>
+    <edge id="e123" source="MED15" target="MED13L"><data key="edge_type">string_association</data><data key="weight">0.959</data></edge>
+    <edge id="e124" source="MED15" target="CCNC"><data key="edge_type">string_association</data><data key="weight">0.987</data></edge>
+    <edge id="e125" source="MED15" target="MED13"><data key="edge_type">string_association</data><data key="weight">0.991</data></edge>
+    <edge id="e126" source="MED15" target="MED12"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e127" source="MED15" target="MED19"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e128" source="MED15" target="MED23"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e129" source="MED15" target="MED24"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e130" source="MED15" target="MED16"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e131" source="EP300" target="MORF4L1"><data key="edge_type">string_association</data><data key="weight">0.41</data></edge>
+    <edge id="e132" source="EP300" target="STK11"><data key="edge_type">string_association</data><data key="weight">0.411</data></edge>
+    <edge id="e133" source="EP300" target="ATXN7"><data key="edge_type">string_association</data><data key="weight">0.416</data></edge>
+    <edge id="e134" source="EP300" target="IRF8"><data key="edge_type">string_association</data><data key="weight">0.426</data></edge>
+    <edge id="e135" source="EP300" target="IKZF1"><data key="edge_type">string_association</data><data key="weight">0.437</data></edge>
+    <edge id="e136" source="EP300" target="AFF1"><data key="edge_type">string_association</data><data key="weight">0.438</data></edge>
+    <edge id="e137" source="EP300" target="CHD7"><data key="edge_type">string_association</data><data key="weight">0.442</data></edge>
+    <edge id="e138" source="EP300" target="ASH1L"><data key="edge_type">string_association</data><data key="weight">0.494</data></edge>
+    <edge id="e139" source="EP300" target="MED24"><data key="edge_type">string_association</data><data key="weight">0.515</data></edge>
+    <edge id="e140" source="EP300" target="MED19"><data key="edge_type">string_association</data><data key="weight">0.527</data></edge>
+    <edge id="e141" source="EP300" target="TADA2B"><data key="edge_type">string_association</data><data key="weight">0.54</data></edge>
+    <edge id="e142" source="EP300" target="GCLC"><data key="edge_type">string_association</data><data key="weight">0.552</data></edge>
+    <edge id="e143" source="EP300" target="MED16"><data key="edge_type">string_association</data><data key="weight">0.552</data></edge>
+    <edge id="e144" source="EP300" target="CCNC"><data key="edge_type">string_association</data><data key="weight">0.573</data></edge>
+    <edge id="e145" source="EP300" target="MEAF6"><data key="edge_type">string_association</data><data key="weight">0.59</data></edge>
+    <edge id="e146" source="EP300" target="MTA2"><data key="edge_type">string_association</data><data key="weight">0.616</data></edge>
+    <edge id="e147" source="EP300" target="BRPF1"><data key="edge_type">string_association</data><data key="weight">0.616</data></edge>
+    <edge id="e148" source="EP300" target="EED"><data key="edge_type">string_association</data><data key="weight">0.632</data></edge>
+    <edge id="e149" source="EP300" target="MED23"><data key="edge_type">string_association</data><data key="weight">0.648</data></edge>
+    <edge id="e150" source="EP300" target="MED13"><data key="edge_type">string_association</data><data key="weight">0.666</data></edge>
+    <edge id="e151" source="EP300" target="DOT1L"><data key="edge_type">string_association</data><data key="weight">0.676</data></edge>
+    <edge id="e152" source="EP300" target="DYRK1A"><data key="edge_type">string_association</data><data key="weight">0.69</data></edge>
+    <edge id="e153" source="EP300" target="MED13L"><data key="edge_type">string_association</data><data key="weight">0.729</data></edge>
+    <edge id="e154" source="EP300" target="KAT6B"><data key="edge_type">string_association</data><data key="weight">0.729</data></edge>
+    <edge id="e155" source="EP300" target="SUZ12"><data key="edge_type">string_association</data><data key="weight">0.745</data></edge>
+    <edge id="e156" source="EP300" target="EBF1"><data key="edge_type">string_association</data><data key="weight">0.791</data></edge>
+    <edge id="e157" source="EP300" target="TADA3"><data key="edge_type">string_association</data><data key="weight">0.791</data></edge>
+    <edge id="e158" source="EP300" target="SMARCA5"><data key="edge_type">string_association</data><data key="weight">0.794</data></edge>
+    <edge id="e159" source="EP300" target="CBFB"><data key="edge_type">string_association</data><data key="weight">0.8</data></edge>
+    <edge id="e160" source="EP300" target="MED12"><data key="edge_type">string_association</data><data key="weight">0.805</data></edge>
+    <edge id="e161" source="EP300" target="MEF2C"><data key="edge_type">string_association</data><data key="weight">0.806</data></edge>
+    <edge id="e162" source="EP300" target="KMT2A"><data key="edge_type">string_association</data><data key="weight">0.831</data></edge>
+    <edge id="e163" source="EP300" target="BCL2"><data key="edge_type">string_association</data><data key="weight">0.869</data></edge>
+    <edge id="e164" source="EP300" target="H4C9"><data key="edge_type">string_association</data><data key="weight">0.928</data></edge>
+    <edge id="e165" source="EP300" target="ING5"><data key="edge_type">string_association</data><data key="weight">0.934</data></edge>
+    <edge id="e166" source="EP300" target="CTBP1"><data key="edge_type">string_association</data><data key="weight">0.955</data></edge>
+    <edge id="e167" source="EP300" target="KAT6A"><data key="edge_type">string_association</data><data key="weight">0.956</data></edge>
+    <edge id="e168" source="EP300" target="EZH2"><data key="edge_type">string_association</data><data key="weight">0.963</data></edge>
+    <edge id="e169" source="EP300" target="MYB"><data key="edge_type">string_association</data><data key="weight">0.996</data></edge>
+    <edge id="e170" source="CAD" target="PAICS"><data key="edge_type">string_association</data><data key="weight">0.559</data></edge>
+    <edge id="e171" source="CAD" target="DARS2"><data key="edge_type">string_association</data><data key="weight">0.561</data></edge>
+    <edge id="e172" source="CAD" target="TUBB2A"><data key="edge_type">string_association</data><data key="weight">0.59</data></edge>
+    <edge id="e173" source="CAD" target="MTHFD1"><data key="edge_type">string_association</data><data key="weight">0.597</data></edge>
+    <edge id="e174" source="CAD" target="PFAS"><data key="edge_type">string_association</data><data key="weight">0.65</data></edge>
+    <edge id="e175" source="SDHA" target="ALAD"><data key="edge_type">string_association</data><data key="weight">0.437</data></edge>
+    <edge id="e176" source="SDHA" target="TUBB2A"><data key="edge_type">string_association</data><data key="weight">0.442</data></edge>
+    <edge id="e177" source="SDHA" target="ALAS1"><data key="edge_type">string_association</data><data key="weight">0.494</data></edge>
+    <edge id="e178" source="SDHA" target="COX6B1"><data key="edge_type">string_association</data><data key="weight">0.559</data></edge>
+    <edge id="e179" source="SDHA" target="MEN1"><data key="edge_type">string_association</data><data key="weight">0.561</data></edge>
+    <edge id="e180" source="SDHA" target="PDSS2"><data key="edge_type">string_association</data><data key="weight">0.605</data></edge>
+    <edge id="e181" source="SDHA" target="SURF1"><data key="edge_type">string_association</data><data key="weight">0.717</data></edge>
+    <edge id="e182" source="SDHA" target="BCS1L"><data key="edge_type">string_association</data><data key="weight">0.838</data></edge>
+    <edge id="e183" source="SDHA" target="DLST"><data key="edge_type">string_association</data><data key="weight">0.841</data></edge>
+    <edge id="e184" source="SDHA" target="SDHB"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e185" source="SDHA" target="FH"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e186" source="KAT6A" target="MRGBP"><data key="edge_type">string_association</data><data key="weight">0.401</data></edge>
+    <edge id="e187" source="KAT6A" target="BRD9"><data key="edge_type">string_association</data><data key="weight">0.405</data></edge>
+    <edge id="e188" source="KAT6A" target="AFF1"><data key="edge_type">string_association</data><data key="weight">0.424</data></edge>
+    <edge id="e189" source="KAT6A" target="JADE2"><data key="edge_type">string_association</data><data key="weight">0.449</data></edge>
+    <edge id="e190" source="KAT6A" target="ASH1L"><data key="edge_type">string_association</data><data key="weight">0.458</data></edge>
+    <edge id="e191" source="KAT6A" target="MTA2"><data key="edge_type">string_association</data><data key="weight">0.465</data></edge>
+    <edge id="e192" source="KAT6A" target="H4C9"><data key="edge_type">string_association</data><data key="weight">0.486</data></edge>
+    <edge id="e193" source="KAT6A" target="EZH2"><data key="edge_type">string_association</data><data key="weight">0.489</data></edge>
+    <edge id="e194" source="KAT6A" target="MED13L"><data key="edge_type">string_association</data><data key="weight">0.529</data></edge>
+    <edge id="e195" source="KAT6A" target="CBFB"><data key="edge_type">string_association</data><data key="weight">0.531</data></edge>
+    <edge id="e196" source="KAT6A" target="MORF4L1"><data key="edge_type">string_association</data><data key="weight">0.542</data></edge>
+    <edge id="e197" source="KAT6A" target="DOT1L"><data key="edge_type">string_association</data><data key="weight">0.546</data></edge>
+    <edge id="e198" source="KAT6A" target="MSL3"><data key="edge_type">string_association</data><data key="weight">0.591</data></edge>
+    <edge id="e199" source="KAT6A" target="MLLT10"><data key="edge_type">string_association</data><data key="weight">0.611</data></edge>
+    <edge id="e200" source="KAT6A" target="KMT2A"><data key="edge_type">string_association</data><data key="weight">0.826</data></edge>
+    <edge id="e201" source="KAT6A" target="MEAF6"><data key="edge_type">string_association</data><data key="weight">0.998</data></edge>
+    <edge id="e202" source="KAT6A" target="KAT6B"><data key="edge_type">string_association</data><data key="weight">0.998</data></edge>
+    <edge id="e203" source="KAT6A" target="BRPF1"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e204" source="KAT6A" target="ING5"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e205" source="PMM2" target="PGM3"><data key="edge_type">string_association</data><data key="weight">0.592</data></edge>
+    <edge id="e206" source="IRF8" target="BCL2"><data key="edge_type">string_association</data><data key="weight">0.416</data></edge>
+    <edge id="e207" source="IRF8" target="MEF2C"><data key="edge_type">string_association</data><data key="weight">0.424</data></edge>
+    <edge id="e208" source="IRF8" target="POU2AF1"><data key="edge_type">string_association</data><data key="weight">0.512</data></edge>
+    <edge id="e209" source="IRF8" target="EBF1"><data key="edge_type">string_association</data><data key="weight">0.519</data></edge>
+    <edge id="e210" source="IRF8" target="IKZF1"><data key="edge_type">string_association</data><data key="weight">0.685</data></edge>
+    <edge id="e211" source="MTA2" target="MEAF6"><data key="edge_type">string_association</data><data key="weight">0.402</data></edge>
+    <edge id="e212" source="MTA2" target="ING5"><data key="edge_type">string_association</data><data key="weight">0.419</data></edge>
+    <edge id="e213" source="MTA2" target="BRPF1"><data key="edge_type">string_association</data><data key="weight">0.436</data></edge>
+    <edge id="e214" source="MTA2" target="ZMYND8"><data key="edge_type">string_association</data><data key="weight">0.53</data></edge>
+    <edge id="e215" source="MTA2" target="EED"><data key="edge_type">string_association</data><data key="weight">0.627</data></edge>
+    <edge id="e216" source="MTA2" target="SUZ12"><data key="edge_type">string_association</data><data key="weight">0.664</data></edge>
+    <edge id="e217" source="MTA2" target="SMARCA5"><data key="edge_type">string_association</data><data key="weight">0.665</data></edge>
+    <edge id="e218" source="MTA2" target="EZH2"><data key="edge_type">string_association</data><data key="weight">0.816</data></edge>
+    <edge id="e219" source="MED13L" target="KMT2A"><data key="edge_type">string_association</data><data key="weight">0.453</data></edge>
+    <edge id="e220" source="MED13L" target="EBF1"><data key="edge_type">string_association</data><data key="weight">0.514</data></edge>
+    <edge id="e221" source="MED13L" target="ASH1L"><data key="edge_type">string_association</data><data key="weight">0.685</data></edge>
+    <edge id="e222" source="MED13L" target="DYRK1A"><data key="edge_type">string_association</data><data key="weight">0.82</data></edge>
+    <edge id="e223" source="MED13L" target="MED24"><data key="edge_type">string_association</data><data key="weight">0.943</data></edge>
+    <edge id="e224" source="MED13L" target="MED16"><data key="edge_type">string_association</data><data key="weight">0.951</data></edge>
+    <edge id="e225" source="MED13L" target="MED13"><data key="edge_type">string_association</data><data key="weight">0.973</data></edge>
+    <edge id="e226" source="MED13L" target="MED23"><data key="edge_type">string_association</data><data key="weight">0.978</data></edge>
+    <edge id="e227" source="MED13L" target="MED19"><data key="edge_type">string_association</data><data key="weight">0.986</data></edge>
+    <edge id="e228" source="MED13L" target="MED12"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e229" source="MED13L" target="CCNC"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e230" source="JADE2" target="KAT6B"><data key="edge_type">string_association</data><data key="weight">0.418</data></edge>
+    <edge id="e231" source="JADE2" target="ING5"><data key="edge_type">string_association</data><data key="weight">0.957</data></edge>
+    <edge id="e232" source="JADE2" target="MEAF6"><data key="edge_type">string_association</data><data key="weight">0.964</data></edge>
+    <edge id="e233" source="SMARCA5" target="DOT1L"><data key="edge_type">string_association</data><data key="weight">0.44</data></edge>
+    <edge id="e234" source="SMARCA5" target="MSL3"><data key="edge_type">string_association</data><data key="weight">0.457</data></edge>
+    <edge id="e235" source="SMARCA5" target="CTBP1"><data key="edge_type">string_association</data><data key="weight">0.49</data></edge>
+    <edge id="e236" source="SMARCA5" target="EED"><data key="edge_type">string_association</data><data key="weight">0.535</data></edge>
+    <edge id="e237" source="SMARCA5" target="MORF4L1"><data key="edge_type">string_association</data><data key="weight">0.576</data></edge>
+    <edge id="e238" source="SMARCA5" target="SUZ12"><data key="edge_type">string_association</data><data key="weight">0.605</data></edge>
+    <edge id="e239" source="SMARCA5" target="CHD7"><data key="edge_type">string_association</data><data key="weight">0.631</data></edge>
+    <edge id="e240" source="SMARCA5" target="SMARCD1"><data key="edge_type">string_association</data><data key="weight">0.801</data></edge>
+    <edge id="e241" source="SMARCA5" target="EZH2"><data key="edge_type">string_association</data><data key="weight">0.856</data></edge>
+    <edge id="e242" source="SMARCA5" target="H4C9"><data key="edge_type">string_association</data><data key="weight">0.932</data></edge>
+    <edge id="e243" source="KAT6B" target="MED12"><data key="edge_type">string_association</data><data key="weight">0.412</data></edge>
+    <edge id="e244" source="KAT6B" target="DOT1L"><data key="edge_type">string_association</data><data key="weight">0.437</data></edge>
+    <edge id="e245" source="KAT6B" target="KMT2A"><data key="edge_type">string_association</data><data key="weight">0.441</data></edge>
+    <edge id="e246" source="KAT6B" target="ASH1L"><data key="edge_type">string_association</data><data key="weight">0.515</data></edge>
+    <edge id="e247" source="KAT6B" target="MSL3"><data key="edge_type">string_association</data><data key="weight">0.541</data></edge>
+    <edge id="e248" source="KAT6B" target="MRGBP"><data key="edge_type">string_association</data><data key="weight">0.696</data></edge>
+    <edge id="e249" source="KAT6B" target="MORF4L1"><data key="edge_type">string_association</data><data key="weight">0.798</data></edge>
+    <edge id="e250" source="KAT6B" target="MEAF6"><data key="edge_type">string_association</data><data key="weight">0.998</data></edge>
+    <edge id="e251" source="KAT6B" target="ING5"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e252" source="KAT6B" target="BRPF1"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e253" source="CTBP1" target="POT1"><data key="edge_type">string_association</data><data key="weight">0.407</data></edge>
+    <edge id="e254" source="CTBP1" target="DCAF7"><data key="edge_type">string_association</data><data key="weight">0.416</data></edge>
+    <edge id="e255" source="CTBP1" target="MRPL43"><data key="edge_type">string_association</data><data key="weight">0.433</data></edge>
+    <edge id="e256" source="CTBP1" target="EZH2"><data key="edge_type">string_association</data><data key="weight">0.433</data></edge>
+    <edge id="e257" source="CTBP1" target="DOT1L"><data key="edge_type">string_association</data><data key="weight">0.459</data></edge>
+    <edge id="e258" source="CTBP1" target="FH"><data key="edge_type">string_association</data><data key="weight">0.548</data></edge>
+    <edge id="e259" source="CTBP1" target="CCND3"><data key="edge_type">string_association</data><data key="weight">0.554</data></edge>
+    <edge id="e260" source="CTBP1" target="PSIP1"><data key="edge_type">string_association</data><data key="weight">0.559</data></edge>
+    <edge id="e261" source="CTBP1" target="MEN1"><data key="edge_type">string_association</data><data key="weight">0.628</data></edge>
+    <edge id="e262" source="CTBP1" target="FPGS"><data key="edge_type">string_association</data><data key="weight">0.77</data></edge>
+    <edge id="e263" source="CTBP1" target="IKZF1"><data key="edge_type">string_association</data><data key="weight">0.927</data></edge>
+    <edge id="e264" source="PDXK" target="DYRK1A"><data key="edge_type">string_association</data><data key="weight">0.503</data></edge>
+    <edge id="e265" source="TAF6L" target="MED16"><data key="edge_type">string_association</data><data key="weight">0.425</data></edge>
+    <edge id="e266" source="TAF6L" target="ING5"><data key="edge_type">string_association</data><data key="weight">0.477</data></edge>
+    <edge id="e267" source="TAF6L" target="TAF13"><data key="edge_type">string_association</data><data key="weight">0.956</data></edge>
+    <edge id="e268" source="TAF6L" target="ATXN7L3"><data key="edge_type">string_association</data><data key="weight">0.993</data></edge>
+    <edge id="e269" source="TAF6L" target="TADA2B"><data key="edge_type">string_association</data><data key="weight">0.996</data></edge>
+    <edge id="e270" source="TAF6L" target="SGF29"><data key="edge_type">string_association</data><data key="weight">0.997</data></edge>
+    <edge id="e271" source="TAF6L" target="SUPT20H"><data key="edge_type">string_association</data><data key="weight">0.998</data></edge>
+    <edge id="e272" source="TAF6L" target="ATXN7"><data key="edge_type">string_association</data><data key="weight">0.998</data></edge>
+    <edge id="e273" source="TAF6L" target="TADA3"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e274" source="TAF6L" target="TAF10"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e275" source="TAF6L" target="SUPT7L"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e276" source="TAF6L" target="TADA1"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e277" source="ATXN7" target="MED12"><data key="edge_type">string_association</data><data key="weight">0.41</data></edge>
+    <edge id="e278" source="ATXN7" target="TADA2B"><data key="edge_type">string_association</data><data key="weight">0.977</data></edge>
+    <edge id="e279" source="ATXN7" target="SUPT7L"><data key="edge_type">string_association</data><data key="weight">0.982</data></edge>
+    <edge id="e280" source="ATXN7" target="SGF29"><data key="edge_type">string_association</data><data key="weight">0.996</data></edge>
+    <edge id="e281" source="ATXN7" target="TADA3"><data key="edge_type">string_association</data><data key="weight">0.996</data></edge>
+    <edge id="e282" source="ATXN7" target="TADA1"><data key="edge_type">string_association</data><data key="weight">0.998</data></edge>
+    <edge id="e283" source="ATXN7" target="TAF10"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e284" source="ATXN7" target="ATXN7L3"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e285" source="ATXN7" target="SUPT20H"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e286" source="TAF10" target="MED24"><data key="edge_type">string_association</data><data key="weight">0.8</data></edge>
+    <edge id="e287" source="TAF10" target="MED16"><data key="edge_type">string_association</data><data key="weight">0.806</data></edge>
+    <edge id="e288" source="TAF10" target="H4C9"><data key="edge_type">string_association</data><data key="weight">0.808</data></edge>
+    <edge id="e289" source="TAF10" target="MED19"><data key="edge_type">string_association</data><data key="weight">0.811</data></edge>
+    <edge id="e290" source="TAF10" target="MED23"><data key="edge_type">string_association</data><data key="weight">0.816</data></edge>
+    <edge id="e291" source="TAF10" target="ATXN7L3"><data key="edge_type">string_association</data><data key="weight">0.993</data></edge>
+    <edge id="e292" source="TAF10" target="TADA2B"><data key="edge_type">string_association</data><data key="weight">0.997</data></edge>
+    <edge id="e293" source="TAF10" target="SGF29"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e294" source="TAF10" target="SUPT20H"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e295" source="TAF10" target="SUPT7L"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e296" source="TAF10" target="TADA1"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e297" source="TAF10" target="TADA3"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e298" source="TAF10" target="TAF13"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e299" source="MLLT10" target="PSIP1"><data key="edge_type">string_association</data><data key="weight">0.432</data></edge>
+    <edge id="e300" source="MLLT10" target="BRPF1"><data key="edge_type">string_association</data><data key="weight">0.432</data></edge>
+    <edge id="e301" source="MLLT10" target="CBFB"><data key="edge_type">string_association</data><data key="weight">0.45</data></edge>
+    <edge id="e302" source="MLLT10" target="MEN1"><data key="edge_type">string_association</data><data key="weight">0.459</data></edge>
+    <edge id="e303" source="MLLT10" target="KMT2A"><data key="edge_type">string_association</data><data key="weight">0.851</data></edge>
+    <edge id="e304" source="MLLT10" target="AFF1"><data key="edge_type">string_association</data><data key="weight">0.985</data></edge>
+    <edge id="e305" source="MLLT10" target="DOT1L"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e306" source="TADA3" target="MRGBP"><data key="edge_type">string_association</data><data key="weight">0.702</data></edge>
+    <edge id="e307" source="TADA3" target="SUPT7L"><data key="edge_type">string_association</data><data key="weight">0.994</data></edge>
+    <edge id="e308" source="TADA3" target="ATXN7L3"><data key="edge_type">string_association</data><data key="weight">0.996</data></edge>
+    <edge id="e309" source="TADA3" target="TADA1"><data key="edge_type">string_association</data><data key="weight">0.998</data></edge>
+    <edge id="e310" source="TADA3" target="SGF29"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e311" source="TADA3" target="SUPT20H"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e312" source="TADA3" target="TADA2B"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e313" source="TADA2B" target="MED12"><data key="edge_type">string_association</data><data key="weight">0.59</data></edge>
+    <edge id="e314" source="TADA2B" target="ATXN7L3"><data key="edge_type">string_association</data><data key="weight">0.987</data></edge>
+    <edge id="e315" source="TADA2B" target="TADA1"><data key="edge_type">string_association</data><data key="weight">0.988</data></edge>
+    <edge id="e316" source="TADA2B" target="SUPT20H"><data key="edge_type">string_association</data><data key="weight">0.991</data></edge>
+    <edge id="e317" source="TADA2B" target="SUPT7L"><data key="edge_type">string_association</data><data key="weight">0.992</data></edge>
+    <edge id="e318" source="TADA2B" target="SGF29"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e319" source="LIPT2" target="DLST"><data key="edge_type">string_association</data><data key="weight">0.4</data></edge>
+    <edge id="e320" source="MSL3" target="H4C9"><data key="edge_type">string_association</data><data key="weight">0.916</data></edge>
+    <edge id="e321" source="MSL3" target="MRGBP"><data key="edge_type">string_association</data><data key="weight">0.921</data></edge>
+    <edge id="e322" source="MSL3" target="MORF4L1"><data key="edge_type">string_association</data><data key="weight">0.939</data></edge>
+    <edge id="e323" source="MSL3" target="MEAF6"><data key="edge_type">string_association</data><data key="weight">0.946</data></edge>
+    <edge id="e324" source="PFAS" target="PAICS"><data key="edge_type">string_association</data><data key="weight">0.821</data></edge>
+    <edge id="e325" source="SGF29" target="ATXN2L"><data key="edge_type">string_association</data><data key="weight">0.443</data></edge>
+    <edge id="e326" source="SGF29" target="TAF13"><data key="edge_type">string_association</data><data key="weight">0.449</data></edge>
+    <edge id="e327" source="SGF29" target="MORF4L1"><data key="edge_type">string_association</data><data key="weight">0.475</data></edge>
+    <edge id="e328" source="SGF29" target="ATXN7L3"><data key="edge_type">string_association</data><data key="weight">0.992</data></edge>
+    <edge id="e329" source="SGF29" target="SUPT7L"><data key="edge_type">string_association</data><data key="weight">0.993</data></edge>
+    <edge id="e330" source="SGF29" target="TADA1"><data key="edge_type">string_association</data><data key="weight">0.997</data></edge>
+    <edge id="e331" source="SGF29" target="SUPT20H"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e332" source="SUZ12" target="IKZF1"><data key="edge_type">string_association</data><data key="weight">0.413</data></edge>
+    <edge id="e333" source="SUZ12" target="MEAF6"><data key="edge_type">string_association</data><data key="weight">0.477</data></edge>
+    <edge id="e334" source="SUZ12" target="KMT2A"><data key="edge_type">string_association</data><data key="weight">0.568</data></edge>
+    <edge id="e335" source="SUZ12" target="ASH1L"><data key="edge_type">string_association</data><data key="weight">0.577</data></edge>
+    <edge id="e336" source="SUZ12" target="DOT1L"><data key="edge_type">string_association</data><data key="weight">0.687</data></edge>
+    <edge id="e337" source="SUZ12" target="H4C9"><data key="edge_type">string_association</data><data key="weight">0.806</data></edge>
+    <edge id="e338" source="SUZ12" target="EED"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e339" source="SUZ12" target="EZH2"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e340" source="EZH2" target="MORF4L1"><data key="edge_type">string_association</data><data key="weight">0.412</data></edge>
+    <edge id="e341" source="EZH2" target="KMT2A"><data key="edge_type">string_association</data><data key="weight">0.438</data></edge>
+    <edge id="e342" source="EZH2" target="AFF1"><data key="edge_type">string_association</data><data key="weight">0.439</data></edge>
+    <edge id="e343" source="EZH2" target="STK11"><data key="edge_type">string_association</data><data key="weight">0.491</data></edge>
+    <edge id="e344" source="EZH2" target="IKZF1"><data key="edge_type">string_association</data><data key="weight">0.552</data></edge>
+    <edge id="e345" source="EZH2" target="BRD9"><data key="edge_type">string_association</data><data key="weight">0.564</data></edge>
+    <edge id="e346" source="EZH2" target="BCL2"><data key="edge_type">string_association</data><data key="weight">0.614</data></edge>
+    <edge id="e347" source="EZH2" target="MEN1"><data key="edge_type">string_association</data><data key="weight">0.777</data></edge>
+    <edge id="e348" source="EZH2" target="H4C9"><data key="edge_type">string_association</data><data key="weight">0.839</data></edge>
+    <edge id="e349" source="EZH2" target="DOT1L"><data key="edge_type">string_association</data><data key="weight">0.867</data></edge>
+    <edge id="e350" source="EZH2" target="EED"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e351" source="EBF1" target="MEF2C"><data key="edge_type">string_association</data><data key="weight">0.457</data></edge>
+    <edge id="e352" source="EBF1" target="MED16"><data key="edge_type">string_association</data><data key="weight">0.499</data></edge>
+    <edge id="e353" source="EBF1" target="MED19"><data key="edge_type">string_association</data><data key="weight">0.499</data></edge>
+    <edge id="e354" source="EBF1" target="MED23"><data key="edge_type">string_association</data><data key="weight">0.499</data></edge>
+    <edge id="e355" source="EBF1" target="MED13"><data key="edge_type">string_association</data><data key="weight">0.505</data></edge>
+    <edge id="e356" source="EBF1" target="MED24"><data key="edge_type">string_association</data><data key="weight">0.506</data></edge>
+    <edge id="e357" source="EBF1" target="CCNC"><data key="edge_type">string_association</data><data key="weight">0.508</data></edge>
+    <edge id="e358" source="EBF1" target="MED12"><data key="edge_type">string_association</data><data key="weight">0.519</data></edge>
+    <edge id="e359" source="EBF1" target="AFF1"><data key="edge_type">string_association</data><data key="weight">0.548</data></edge>
+    <edge id="e360" source="EBF1" target="POU2AF1"><data key="edge_type">string_association</data><data key="weight">0.714</data></edge>
+    <edge id="e361" source="EBF1" target="IKZF1"><data key="edge_type">string_association</data><data key="weight">0.931</data></edge>
+    <edge id="e362" source="STK11" target="MTHFD1"><data key="edge_type">string_association</data><data key="weight">0.408</data></edge>
+    <edge id="e363" source="STK11" target="BCL2"><data key="edge_type">string_association</data><data key="weight">0.485</data></edge>
+    <edge id="e364" source="STK11" target="MEN1"><data key="edge_type">string_association</data><data key="weight">0.529</data></edge>
+    <edge id="e365" source="STK11" target="ADIPOR2"><data key="edge_type">string_association</data><data key="weight">0.622</data></edge>
+    <edge id="e366" source="MICOS10" target="SDHB"><data key="edge_type">string_association</data><data key="weight">0.697</data></edge>
+    <edge id="e367" source="MED16" target="SUPT7L"><data key="edge_type">string_association</data><data key="weight">0.621</data></edge>
+    <edge id="e368" source="MED16" target="H4C9"><data key="edge_type">string_association</data><data key="weight">0.8</data></edge>
+    <edge id="e369" source="MED16" target="TAF13"><data key="edge_type">string_association</data><data key="weight">0.803</data></edge>
+    <edge id="e370" source="MED16" target="CCNC"><data key="edge_type">string_association</data><data key="weight">0.982</data></edge>
+    <edge id="e371" source="MED16" target="MED13"><data key="edge_type">string_association</data><data key="weight">0.995</data></edge>
+    <edge id="e372" source="MED16" target="MED19"><data key="edge_type">string_association</data><data key="weight">0.998</data></edge>
+    <edge id="e373" source="MED16" target="MED12"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e374" source="MED16" target="MED23"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e375" source="MED16" target="MED24"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e376" source="MORF4L1" target="BRPF1"><data key="edge_type">string_association</data><data key="weight">0.456</data></edge>
+    <edge id="e377" source="MORF4L1" target="PSIP1"><data key="edge_type">string_association</data><data key="weight">0.545</data></edge>
+    <edge id="e378" source="MORF4L1" target="DOT1L"><data key="edge_type">string_association</data><data key="weight">0.573</data></edge>
+    <edge id="e379" source="MORF4L1" target="ING5"><data key="edge_type">string_association</data><data key="weight">0.623</data></edge>
+    <edge id="e380" source="MORF4L1" target="ASH1L"><data key="edge_type">string_association</data><data key="weight">0.986</data></edge>
+    <edge id="e381" source="MORF4L1" target="MEAF6"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e382" source="MORF4L1" target="MRGBP"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e383" source="IKZF1" target="POU2AF1"><data key="edge_type">string_association</data><data key="weight">0.404</data></edge>
+    <edge id="e384" source="IKZF1" target="H4C9"><data key="edge_type">string_association</data><data key="weight">0.426</data></edge>
+    <edge id="e385" source="IKZF1" target="MEF2C"><data key="edge_type">string_association</data><data key="weight">0.426</data></edge>
+    <edge id="e386" source="IKZF1" target="MYB"><data key="edge_type">string_association</data><data key="weight">0.535</data></edge>
+    <edge id="e387" source="IKZF1" target="CBFB"><data key="edge_type">string_association</data><data key="weight">0.538</data></edge>
+    <edge id="e388" source="IKZF1" target="BCL2"><data key="edge_type">string_association</data><data key="weight">0.551</data></edge>
+    <edge id="e389" source="IKZF1" target="KMT2A"><data key="edge_type">string_association</data><data key="weight">0.63</data></edge>
+    <edge id="e390" source="IKZF1" target="AFF1"><data key="edge_type">string_association</data><data key="weight">0.651</data></edge>
+    <edge id="e391" source="DLST" target="PGM3"><data key="edge_type">string_association</data><data key="weight">0.414</data></edge>
+    <edge id="e392" source="DLST" target="FH"><data key="edge_type">string_association</data><data key="weight">0.82</data></edge>
+    <edge id="e393" source="DLST" target="SDHB"><data key="edge_type">string_association</data><data key="weight">0.883</data></edge>
+    <edge id="e394" source="SUPT7L" target="ATXN7L3"><data key="edge_type">string_association</data><data key="weight">0.991</data></edge>
+    <edge id="e395" source="SUPT7L" target="TADA1"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e396" source="SUPT7L" target="SUPT20H"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e397" source="MEN1" target="MRPL43"><data key="edge_type">string_association</data><data key="weight">0.415</data></edge>
+    <edge id="e398" source="MEN1" target="MED12"><data key="edge_type">string_association</data><data key="weight">0.421</data></edge>
+    <edge id="e399" source="MEN1" target="MYB"><data key="edge_type">string_association</data><data key="weight">0.423</data></edge>
+    <edge id="e400" source="MEN1" target="AFF1"><data key="edge_type">string_association</data><data key="weight">0.505</data></edge>
+    <edge id="e401" source="MEN1" target="DOT1L"><data key="edge_type">string_association</data><data key="weight">0.6</data></edge>
+    <edge id="e402" source="MEN1" target="SDHB"><data key="edge_type">string_association</data><data key="weight">0.601</data></edge>
+    <edge id="e403" source="MEN1" target="PSIP1"><data key="edge_type">string_association</data><data key="weight">0.997</data></edge>
+    <edge id="e404" source="MEN1" target="KMT2A"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e405" source="EED" target="PSIP1"><data key="edge_type">string_association</data><data key="weight">0.471</data></edge>
+    <edge id="e406" source="EED" target="ASH1L"><data key="edge_type">string_association</data><data key="weight">0.545</data></edge>
+    <edge id="e407" source="EED" target="KMT2A"><data key="edge_type">string_association</data><data key="weight">0.578</data></edge>
+    <edge id="e408" source="EED" target="DOT1L"><data key="edge_type">string_association</data><data key="weight">0.639</data></edge>
+    <edge id="e409" source="MRPL43" target="SURF1"><data key="edge_type">string_association</data><data key="weight">0.407</data></edge>
+    <edge id="e410" source="MRPL43" target="BCS1L"><data key="edge_type">string_association</data><data key="weight">0.417</data></edge>
+    <edge id="e411" source="MRPL43" target="MED24"><data key="edge_type">string_association</data><data key="weight">0.472</data></edge>
+    <edge id="e412" source="MRPL43" target="MTERF4"><data key="edge_type">string_association</data><data key="weight">0.822</data></edge>
+    <edge id="e413" source="MYB" target="BCL2"><data key="edge_type">string_association</data><data key="weight">0.488</data></edge>
+    <edge id="e414" source="MYB" target="CBFB"><data key="edge_type">string_association</data><data key="weight">0.646</data></edge>
+    <edge id="e415" source="MYB" target="KMT2A"><data key="edge_type">string_association</data><data key="weight">0.955</data></edge>
+    <edge id="e416" source="DYRK1A" target="ASH1L"><data key="edge_type">string_association</data><data key="weight">0.42</data></edge>
+    <edge id="e417" source="DYRK1A" target="AFF1"><data key="edge_type">string_association</data><data key="weight">0.433</data></edge>
+    <edge id="e418" source="DYRK1A" target="CCND3"><data key="edge_type">string_association</data><data key="weight">0.445</data></edge>
+    <edge id="e419" source="DYRK1A" target="MED13"><data key="edge_type">string_association</data><data key="weight">0.457</data></edge>
+    <edge id="e420" source="DYRK1A" target="DCAF7"><data key="edge_type">string_association</data><data key="weight">0.997</data></edge>
+    <edge id="e421" source="PPCDC" target="FH"><data key="edge_type">string_association</data><data key="weight">0.547</data></edge>
+    <edge id="e422" source="PPCDC" target="PPCS"><data key="edge_type">string_association</data><data key="weight">0.997</data></edge>
+    <edge id="e423" source="TAF13" target="MED24"><data key="edge_type">string_association</data><data key="weight">0.8</data></edge>
+    <edge id="e424" source="TAF13" target="MED19"><data key="edge_type">string_association</data><data key="weight">0.803</data></edge>
+    <edge id="e425" source="TAF13" target="H4C9"><data key="edge_type">string_association</data><data key="weight">0.803</data></edge>
+    <edge id="e426" source="TAF13" target="MED23"><data key="edge_type">string_association</data><data key="weight">0.805</data></edge>
+    <edge id="e427" source="FH" target="MTHFD1"><data key="edge_type">string_association</data><data key="weight">0.463</data></edge>
+    <edge id="e428" source="FH" target="MED12"><data key="edge_type">string_association</data><data key="weight">0.479</data></edge>
+    <edge id="e429" source="FH" target="SDHB"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e430" source="TADA1" target="ATXN7L3"><data key="edge_type">string_association</data><data key="weight">0.994</data></edge>
+    <edge id="e431" source="TADA1" target="SUPT20H"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e432" source="MED23" target="H4C9"><data key="edge_type">string_association</data><data key="weight">0.8</data></edge>
+    <edge id="e433" source="MED23" target="CCNC"><data key="edge_type">string_association</data><data key="weight">0.986</data></edge>
+    <edge id="e434" source="MED23" target="MED13"><data key="edge_type">string_association</data><data key="weight">0.996</data></edge>
+    <edge id="e435" source="MED23" target="MED19"><data key="edge_type">string_association</data><data key="weight">0.998</data></edge>
+    <edge id="e436" source="MED23" target="MED12"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e437" source="MED23" target="MED24"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e438" source="PDSS2" target="BCS1L"><data key="edge_type">string_association</data><data key="weight">0.541</data></edge>
+    <edge id="e439" source="MRGBP" target="ING5"><data key="edge_type">string_association</data><data key="weight">0.651</data></edge>
+    <edge id="e440" source="MRGBP" target="MEAF6"><data key="edge_type">string_association</data><data key="weight">0.997</data></edge>
+    <edge id="e441" source="SURF1" target="SDHB"><data key="edge_type">string_association</data><data key="weight">0.444</data></edge>
+    <edge id="e442" source="SURF1" target="COX16"><data key="edge_type">string_association</data><data key="weight">0.663</data></edge>
+    <edge id="e443" source="SURF1" target="BCS1L"><data key="edge_type">string_association</data><data key="weight">0.804</data></edge>
+    <edge id="e444" source="SURF1" target="COX6B1"><data key="edge_type">string_association</data><data key="weight">0.827</data></edge>
+    <edge id="e445" source="CCND3" target="CBFB"><data key="edge_type">string_association</data><data key="weight">0.56</data></edge>
+    <edge id="e446" source="CCND3" target="BCL2"><data key="edge_type">string_association</data><data key="weight">0.604</data></edge>
+    <edge id="e447" source="CCND3" target="CCNC"><data key="edge_type">string_association</data><data key="weight">0.615</data></edge>
+    <edge id="e448" source="MEAF6" target="BRPF1"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e449" source="MEAF6" target="ING5"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e450" source="FPGS" target="MTHFD1"><data key="edge_type">string_association</data><data key="weight">0.958</data></edge>
+    <edge id="e451" source="MED12" target="MED19"><data key="edge_type">string_association</data><data key="weight">0.995</data></edge>
+    <edge id="e452" source="MED12" target="MED13"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e453" source="MED12" target="MED24"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e454" source="MED12" target="CCNC"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e455" source="SDHB" target="BCS1L"><data key="edge_type">string_association</data><data key="weight">0.438</data></edge>
+    <edge id="e456" source="SDHB" target="BCL2"><data key="edge_type">string_association</data><data key="weight">0.61</data></edge>
+    <edge id="e457" source="SDHB" target="COX6B1"><data key="edge_type">string_association</data><data key="weight">0.798</data></edge>
+    <edge id="e458" source="TUBB2A" target="ALAS1"><data key="edge_type">string_association</data><data key="weight">0.413</data></edge>
+    <edge id="e459" source="PSIP1" target="BRPF1"><data key="edge_type">string_association</data><data key="weight">0.412</data></edge>
+    <edge id="e460" source="PSIP1" target="ASH1L"><data key="edge_type">string_association</data><data key="weight">0.427</data></edge>
+    <edge id="e461" source="PSIP1" target="AFF1"><data key="edge_type">string_association</data><data key="weight">0.486</data></edge>
+    <edge id="e462" source="PSIP1" target="DOT1L"><data key="edge_type">string_association</data><data key="weight">0.675</data></edge>
+    <edge id="e463" source="PSIP1" target="H4C9"><data key="edge_type">string_association</data><data key="weight">0.808</data></edge>
+    <edge id="e464" source="PSIP1" target="KMT2A"><data key="edge_type">string_association</data><data key="weight">0.988</data></edge>
+    <edge id="e465" source="BRPF1" target="BRD9"><data key="edge_type">string_association</data><data key="weight">0.479</data></edge>
+    <edge id="e466" source="BRPF1" target="ASH1L"><data key="edge_type">string_association</data><data key="weight">0.522</data></edge>
+    <edge id="e467" source="BRPF1" target="KMT2A"><data key="edge_type">string_association</data><data key="weight">0.669</data></edge>
+    <edge id="e468" source="BRPF1" target="ING5"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e469" source="COX16" target="COX6B1"><data key="edge_type">string_association</data><data key="weight">0.446</data></edge>
+    <edge id="e470" source="ASH1L" target="SMARCD1"><data key="edge_type">string_association</data><data key="weight">0.461</data></edge>
+    <edge id="e471" source="ASH1L" target="MED13"><data key="edge_type">string_association</data><data key="weight">0.464</data></edge>
+    <edge id="e472" source="ASH1L" target="DOT1L"><data key="edge_type">string_association</data><data key="weight">0.638</data></edge>
+    <edge id="e473" source="ASH1L" target="KMT2A"><data key="edge_type">string_association</data><data key="weight">0.673</data></edge>
+    <edge id="e474" source="SMARCD1" target="CHD7"><data key="edge_type">string_association</data><data key="weight">0.456</data></edge>
+    <edge id="e475" source="SMARCD1" target="CBFB"><data key="edge_type">string_association</data><data key="weight">0.556</data></edge>
+    <edge id="e476" source="SMARCD1" target="H4C9"><data key="edge_type">string_association</data><data key="weight">0.847</data></edge>
+    <edge id="e477" source="SMARCD1" target="BRD9"><data key="edge_type">string_association</data><data key="weight">0.998</data></edge>
+    <edge id="e478" source="ALAS1" target="ALAD"><data key="edge_type">string_association</data><data key="weight">0.991</data></edge>
+    <edge id="e479" source="AFF1" target="CBFB"><data key="edge_type">string_association</data><data key="weight">0.446</data></edge>
+    <edge id="e480" source="AFF1" target="DOT1L"><data key="edge_type">string_association</data><data key="weight">0.951</data></edge>
+    <edge id="e481" source="AFF1" target="KMT2A"><data key="edge_type">string_association</data><data key="weight">0.99</data></edge>
+    <edge id="e482" source="ATXN2L" target="LSM12"><data key="edge_type">string_association</data><data key="weight">0.986</data></edge>
+    <edge id="e483" source="MED13" target="MED24"><data key="edge_type">string_association</data><data key="weight">0.987</data></edge>
+    <edge id="e484" source="MED13" target="MED19"><data key="edge_type">string_association</data><data key="weight">0.997</data></edge>
+    <edge id="e485" source="MED13" target="CCNC"><data key="edge_type">string_association</data><data key="weight">0.999</data></edge>
+    <edge id="e486" source="BCL2" target="GCLC"><data key="edge_type">string_association</data><data key="weight">0.62</data></edge>
+    <edge id="e487" source="DOT1L" target="KMT2A"><data key="edge_type">string_association</data><data key="weight">0.894</data></edge>
+    <edge id="e488" source="DOT1L" target="H4C9"><data key="edge_type">string_association</data><data key="weight">0.937</data></edge>
+    <edge id="e489" source="PAICS" target="MTHFD1"><data key="edge_type">string_association</data><data key="weight">0.9</data></edge>
+    <edge id="e490" source="PAICS" target="CHD7"><data key="edge_type">string_association</data><data key="weight">0.946</data></edge>
+    <edge id="e491" source="ALAD" target="PGM3"><data key="edge_type">string_association</data><data key="weight">0.652</data></edge>
+    <edge id="e492" source="DENND4A" target="CHD7"><data key="edge_type">string_association</data><data key="weight">0.406</data></edge>
+    <edge id="e493" source="ATXN7L3" target="SUPT20H"><data key="edge_type">string_association</data><data key="weight">0.995</data></edge>
+    <edge id="e494" source="BCS1L" target="DARS2"><data key="edge_type">string_association</data><data key="weight">0.523</data></edge>
+    <edge id="e495" source="BCS1L" target="COX6B1"><data key="edge_type">string_association</data><data key="weight">0.719</data></edge>
+    <edge id="e496" source="CBFB" target="KMT2A"><data key="edge_type">string_association</data><data key="weight">0.743</data></edge>
+    <edge id="e497" source="CCNC" target="MED24"><data key="edge_type">string_association</data><data key="weight">0.978</data></edge>
+    <edge id="e498" source="CCNC" target="MED19"><data key="edge_type">string_association</data><data key="weight">0.989</data></edge>
+    <edge id="e499" source="KMT2A" target="H4C9"><data key="edge_type">string_association</data><data key="weight">0.829</data></edge>
+    <edge id="e500" source="ZMYND8" target="ZNF592"><data key="edge_type">string_association</data><data key="weight">0.988</data></edge>
+    <edge id="e501" source="MED24" target="H4C9"><data key="edge_type">string_association</data><data key="weight">0.801</data></edge>
+    <edge id="e502" source="MED24" target="MED19"><data key="edge_type">string_association</data><data key="weight">0.998</data></edge>
+    <edge id="e503" source="H4C9" target="MED19"><data key="edge_type">string_association</data><data key="weight">0.8</data></edge>
+    <edge id="e504" source="GSS" target="GCLC"><data key="edge_type">string_association</data><data key="weight">0.995</data></edge>
+    <edge id="e505" source="DOT1L" target="ADIPOR2"><data key="edge_type">codependency</data><data key="weight">0.1934</data></edge>
+    <edge id="e506" source="DOT1L" target="AFF1"><data key="edge_type">codependency</data><data key="weight">0.2306</data></edge>
+    <edge id="e507" source="DOT1L" target="ALAD"><data key="edge_type">codependency</data><data key="weight">0.2566</data></edge>
+    <edge id="e508" source="DOT1L" target="ALAS1"><data key="edge_type">codependency</data><data key="weight">0.2327</data></edge>
+    <edge id="e509" source="DOT1L" target="ARHGAP45"><data key="edge_type">codependency</data><data key="weight">0.2275</data></edge>
+    <edge id="e510" source="DOT1L" target="ASH1L"><data key="edge_type">codependency</data><data key="weight">0.234</data></edge>
+    <edge id="e511" source="DOT1L" target="ATIC"><data key="edge_type">codependency</data><data key="weight">0.2552</data></edge>
+    <edge id="e512" source="DOT1L" target="ATXN2L"><data key="edge_type">codependency</data><data key="weight">0.2138</data></edge>
+    <edge id="e513" source="DOT1L" target="ATXN7"><data key="edge_type">codependency</data><data key="weight">0.2087</data></edge>
+    <edge id="e514" source="DOT1L" target="BCL2"><data key="edge_type">codependency</data><data key="weight">0.2567</data></edge>
+    <edge id="e515" source="DOT1L" target="BCS1L"><data key="edge_type">codependency</data><data key="weight">0.2032</data></edge>
+    <edge id="e516" source="DOT1L" target="BRD9"><data key="edge_type">codependency</data><data key="weight">0.2092</data></edge>
+    <edge id="e517" source="DOT1L" target="BRPF1"><data key="edge_type">codependency</data><data key="weight">0.4317</data></edge>
+    <edge id="e518" source="DOT1L" target="CAB39"><data key="edge_type">codependency</data><data key="weight">0.2003</data></edge>
+    <edge id="e519" source="DOT1L" target="CAD"><data key="edge_type">codependency</data><data key="weight">0.2405</data></edge>
+    <edge id="e520" source="DOT1L" target="CARS2"><data key="edge_type">codependency</data><data key="weight">0.2169</data></edge>
+    <edge id="e521" source="DOT1L" target="CBFB"><data key="edge_type">codependency</data><data key="weight">0.2522</data></edge>
+    <edge id="e522" source="DOT1L" target="CCDC47"><data key="edge_type">codependency</data><data key="weight">0.2369</data></edge>
+    <edge id="e523" source="DOT1L" target="CCNC"><data key="edge_type">codependency</data><data key="weight">0.2306</data></edge>
+    <edge id="e524" source="DOT1L" target="CDIN1"><data key="edge_type">codependency</data><data key="weight">0.1936</data></edge>
+    <edge id="e525" source="DOT1L" target="CHD7"><data key="edge_type">codependency</data><data key="weight">0.1992</data></edge>
+    <edge id="e526" source="DOT1L" target="COX16"><data key="edge_type">codependency</data><data key="weight">0.1963</data></edge>
+    <edge id="e527" source="DOT1L" target="COX5B"><data key="edge_type">codependency</data><data key="weight">0.1967</data></edge>
+    <edge id="e528" source="DOT1L" target="COX6B1"><data key="edge_type">codependency</data><data key="weight">0.2018</data></edge>
+    <edge id="e529" source="DOT1L" target="CTBP1"><data key="edge_type">codependency</data><data key="weight">0.241</data></edge>
+    <edge id="e530" source="DOT1L" target="DARS2"><data key="edge_type">codependency</data><data key="weight">0.2354</data></edge>
+    <edge id="e531" source="DOT1L" target="DCAF7"><data key="edge_type">codependency</data><data key="weight">0.4264</data></edge>
+    <edge id="e532" source="DOT1L" target="DLST"><data key="edge_type">codependency</data><data key="weight">0.2354</data></edge>
+    <edge id="e533" source="DOT1L" target="EBF1"><data key="edge_type">codependency</data><data key="weight">0.2021</data></edge>
+    <edge id="e534" source="DOT1L" target="EED"><data key="edge_type">codependency</data><data key="weight">0.3805</data></edge>
+    <edge id="e535" source="DOT1L" target="EP300"><data key="edge_type">codependency</data><data key="weight">0.2829</data></edge>
+    <edge id="e536" source="DOT1L" target="EZH2"><data key="edge_type">codependency</data><data key="weight">0.4248</data></edge>
+    <edge id="e537" source="DOT1L" target="FPGS"><data key="edge_type">codependency</data><data key="weight">0.2244</data></edge>
+    <edge id="e538" source="DOT1L" target="GCLC"><data key="edge_type">codependency</data><data key="weight">0.2967</data></edge>
+    <edge id="e539" source="DOT1L" target="GSE1"><data key="edge_type">codependency</data><data key="weight">0.2235</data></edge>
+    <edge id="e540" source="DOT1L" target="GSS"><data key="edge_type">codependency</data><data key="weight">0.2233</data></edge>
+    <edge id="e541" source="DOT1L" target="IKZF1"><data key="edge_type">codependency</data><data key="weight">0.2051</data></edge>
+    <edge id="e542" source="DOT1L" target="ING5"><data key="edge_type">codependency</data><data key="weight">0.285</data></edge>
+    <edge id="e543" source="DOT1L" target="JADE1"><data key="edge_type">codependency</data><data key="weight">0.233</data></edge>
+    <edge id="e544" source="DOT1L" target="JADE2"><data key="edge_type">codependency</data><data key="weight">0.2813</data></edge>
+    <edge id="e545" source="DOT1L" target="KAT6A"><data key="edge_type">codependency</data><data key="weight">0.4052</data></edge>
+    <edge id="e546" source="DOT1L" target="KAT6B"><data key="edge_type">codependency</data><data key="weight">0.2866</data></edge>
+    <edge id="e547" source="DOT1L" target="KMT2A"><data key="edge_type">codependency</data><data key="weight">0.5239</data></edge>
+    <edge id="e548" source="DOT1L" target="LIPT2"><data key="edge_type">codependency</data><data key="weight">0.1981</data></edge>
+    <edge id="e549" source="DOT1L" target="LSM12"><data key="edge_type">codependency</data><data key="weight">0.1998</data></edge>
+    <edge id="e550" source="DOT1L" target="MBD2"><data key="edge_type">codependency</data><data key="weight">0.2284</data></edge>
+    <edge id="e551" source="DOT1L" target="MBNL1"><data key="edge_type">codependency</data><data key="weight">0.2848</data></edge>
+    <edge id="e552" source="DOT1L" target="MEAF6"><data key="edge_type">codependency</data><data key="weight">0.3224</data></edge>
+    <edge id="e553" source="DOT1L" target="MED12"><data key="edge_type">codependency</data><data key="weight">0.2608</data></edge>
+    <edge id="e554" source="DOT1L" target="MED13"><data key="edge_type">codependency</data><data key="weight">0.2685</data></edge>
+    <edge id="e555" source="DOT1L" target="MED13L"><data key="edge_type">codependency</data><data key="weight">0.2542</data></edge>
+    <edge id="e556" source="DOT1L" target="MED15"><data key="edge_type">codependency</data><data key="weight">0.2302</data></edge>
+    <edge id="e557" source="DOT1L" target="MED16"><data key="edge_type">codependency</data><data key="weight">0.2571</data></edge>
+    <edge id="e558" source="DOT1L" target="MED19"><data key="edge_type">codependency</data><data key="weight">0.1956</data></edge>
+    <edge id="e559" source="DOT1L" target="MED23"><data key="edge_type">codependency</data><data key="weight">0.3207</data></edge>
+    <edge id="e560" source="DOT1L" target="MED24"><data key="edge_type">codependency</data><data key="weight">0.2765</data></edge>
+    <edge id="e561" source="DOT1L" target="MEF2C"><data key="edge_type">codependency</data><data key="weight">0.2301</data></edge>
+    <edge id="e562" source="DOT1L" target="MEN1"><data key="edge_type">codependency</data><data key="weight">0.5703</data></edge>
+    <edge id="e563" source="DOT1L" target="MICOS10"><data key="edge_type">codependency</data><data key="weight">0.2031</data></edge>
+    <edge id="e564" source="DOT1L" target="MLLT1"><data key="edge_type">codependency</data><data key="weight">0.3771</data></edge>
+    <edge id="e565" source="DOT1L" target="MLLT10"><data key="edge_type">codependency</data><data key="weight">0.4508</data></edge>
+    <edge id="e566" source="DOT1L" target="MORF4L1"><data key="edge_type">codependency</data><data key="weight">0.2497</data></edge>
+    <edge id="e567" source="DOT1L" target="MRPL43"><data key="edge_type">codependency</data><data key="weight">0.2185</data></edge>
+    <edge id="e568" source="DOT1L" target="MTA2"><data key="edge_type">codependency</data><data key="weight">0.2592</data></edge>
+    <edge id="e569" source="DOT1L" target="MTERF4"><data key="edge_type">codependency</data><data key="weight">0.2004</data></edge>
+    <edge id="e570" source="DOT1L" target="MTHFD1"><data key="edge_type">codependency</data><data key="weight">0.2619</data></edge>
+    <edge id="e571" source="DOT1L" target="MYB"><data key="edge_type">codependency</data><data key="weight">0.2175</data></edge>
+    <edge id="e572" source="DOT1L" target="NAMPT"><data key="edge_type">codependency</data><data key="weight">0.1996</data></edge>
+    <edge id="e573" source="DOT1L" target="NMNAT1"><data key="edge_type">codependency</data><data key="weight">0.193</data></edge>
+    <edge id="e574" source="DOT1L" target="PAICS"><data key="edge_type">codependency</data><data key="weight">0.2238</data></edge>
+    <edge id="e575" source="DOT1L" target="PDSS2"><data key="edge_type">codependency</data><data key="weight">0.2393</data></edge>
+    <edge id="e576" source="DOT1L" target="PDXK"><data key="edge_type">codependency</data><data key="weight">0.1953</data></edge>
+    <edge id="e577" source="DOT1L" target="PFAS"><data key="edge_type">codependency</data><data key="weight">0.2591</data></edge>
+    <edge id="e578" source="DOT1L" target="PGM3"><data key="edge_type">codependency</data><data key="weight">0.2568</data></edge>
+    <edge id="e579" source="DOT1L" target="PMM2"><data key="edge_type">codependency</data><data key="weight">0.2181</data></edge>
+    <edge id="e580" source="DOT1L" target="POT1"><data key="edge_type">codependency</data><data key="weight">0.1991</data></edge>
+    <edge id="e581" source="DOT1L" target="POU2AF1"><data key="edge_type">codependency</data><data key="weight">0.201</data></edge>
+    <edge id="e582" source="DOT1L" target="PPCDC"><data key="edge_type">codependency</data><data key="weight">0.238</data></edge>
+    <edge id="e583" source="DOT1L" target="PPCS"><data key="edge_type">codependency</data><data key="weight">0.1975</data></edge>
+    <edge id="e584" source="DOT1L" target="PSIP1"><data key="edge_type">codependency</data><data key="weight">0.3606</data></edge>
+    <edge id="e585" source="DOT1L" target="RNASEH2A"><data key="edge_type">codependency</data><data key="weight">0.195</data></edge>
+    <edge id="e586" source="DOT1L" target="SDHA"><data key="edge_type">codependency</data><data key="weight">0.2541</data></edge>
+    <edge id="e587" source="DOT1L" target="SDHB"><data key="edge_type">codependency</data><data key="weight">0.264</data></edge>
+    <edge id="e588" source="DOT1L" target="SGF29"><data key="edge_type">codependency</data><data key="weight">0.2941</data></edge>
+    <edge id="e589" source="DOT1L" target="SIK3"><data key="edge_type">codependency</data><data key="weight">0.2441</data></edge>
+    <edge id="e590" source="DOT1L" target="SLC20A1"><data key="edge_type">codependency</data><data key="weight">0.2106</data></edge>
+    <edge id="e591" source="DOT1L" target="SMARCA5"><data key="edge_type">codependency</data><data key="weight">0.2417</data></edge>
+    <edge id="e592" source="DOT1L" target="SMARCD1"><data key="edge_type">codependency</data><data key="weight">0.213</data></edge>
+    <edge id="e593" source="DOT1L" target="STK11"><data key="edge_type">codependency</data><data key="weight">0.2369</data></edge>
+    <edge id="e594" source="DOT1L" target="SUPT20H"><data key="edge_type">codependency</data><data key="weight">0.3252</data></edge>
+    <edge id="e595" source="DOT1L" target="SUPT7L"><data key="edge_type">codependency</data><data key="weight">0.3024</data></edge>
+    <edge id="e596" source="DOT1L" target="SUZ12"><data key="edge_type">codependency</data><data key="weight">0.3526</data></edge>
+    <edge id="e597" source="DOT1L" target="TADA1"><data key="edge_type">codependency</data><data key="weight">0.3195</data></edge>
+    <edge id="e598" source="DOT1L" target="TADA2B"><data key="edge_type">codependency</data><data key="weight">0.3785</data></edge>
+    <edge id="e599" source="DOT1L" target="TADA3"><data key="edge_type">codependency</data><data key="weight">0.2859</data></edge>
+    <edge id="e600" source="DOT1L" target="TAF5L"><data key="edge_type">codependency</data><data key="weight">0.3569</data></edge>
+    <edge id="e601" source="DOT1L" target="TAF6L"><data key="edge_type">codependency</data><data key="weight">0.2701</data></edge>
+    <edge id="e602" source="DOT1L" target="TCF3"><data key="edge_type">codependency</data><data key="weight">0.2282</data></edge>
+    <edge id="e603" source="DOT1L" target="UQCRC1"><data key="edge_type">codependency</data><data key="weight">0.2546</data></edge>
+    <edge id="e604" source="DOT1L" target="USP22"><data key="edge_type">codependency</data><data key="weight">0.2069</data></edge>
+    <edge id="e605" source="DOT1L" target="WDR20"><data key="edge_type">codependency</data><data key="weight">0.2087</data></edge>
+    <edge id="e606" source="DOT1L" target="ZFP64"><data key="edge_type">codependency</data><data key="weight">0.2191</data></edge>
+    <edge id="e607" source="DOT1L" target="ZMYND8"><data key="edge_type">codependency</data><data key="weight">0.2374</data></edge>
+    <edge id="e608" source="DOT1L" target="ZNF592"><data key="edge_type">codependency</data><data key="weight">0.2164</data></edge>
+    <edge id="e609" source="MLLT10" target="ALAD"><data key="edge_type">codependency</data><data key="weight">0.1463</data></edge>
+    <edge id="e610" source="MLLT10" target="ATP1B3"><data key="edge_type">codependency</data><data key="weight">0.1592</data></edge>
+    <edge id="e611" source="MLLT10" target="ATXN2L"><data key="edge_type">codependency</data><data key="weight">0.1746</data></edge>
+    <edge id="e612" source="MLLT10" target="ATXN7"><data key="edge_type">codependency</data><data key="weight">0.2203</data></edge>
+    <edge id="e613" source="MLLT10" target="ATXN7L3"><data key="edge_type">codependency</data><data key="weight">0.1464</data></edge>
+    <edge id="e614" source="MLLT10" target="BCL2"><data key="edge_type">codependency</data><data key="weight">0.1559</data></edge>
+    <edge id="e615" source="MLLT10" target="BIN3"><data key="edge_type">codependency</data><data key="weight">0.1559</data></edge>
+    <edge id="e616" source="MLLT10" target="CCNC"><data key="edge_type">codependency</data><data key="weight">0.1558</data></edge>
+    <edge id="e617" source="MLLT10" target="CTBP1"><data key="edge_type">codependency</data><data key="weight">0.1641</data></edge>
+    <edge id="e618" source="MLLT10" target="DOT1L"><data key="edge_type">codependency</data><data key="weight">0.4508</data></edge>
+    <edge id="e619" source="MLLT10" target="EED"><data key="edge_type">codependency</data><data key="weight">0.2342</data></edge>
+    <edge id="e620" source="MLLT10" target="EP300"><data key="edge_type">codependency</data><data key="weight">0.1606</data></edge>
+    <edge id="e621" source="MLLT10" target="EZH2"><data key="edge_type">codependency</data><data key="weight">0.2352</data></edge>
+    <edge id="e622" source="MLLT10" target="H4C9"><data key="edge_type">codependency</data><data key="weight">0.2039</data></edge>
+    <edge id="e623" source="MLLT10" target="IKZF1"><data key="edge_type">codependency</data><data key="weight">0.1672</data></edge>
+    <edge id="e624" source="MLLT10" target="ING5"><data key="edge_type">codependency</data><data key="weight">0.1798</data></edge>
+    <edge id="e625" source="MLLT10" target="JADE1"><data key="edge_type">codependency</data><data key="weight">0.1991</data></edge>
+    <edge id="e626" source="MLLT10" target="JADE2"><data key="edge_type">codependency</data><data key="weight">0.2272</data></edge>
+    <edge id="e627" source="MLLT10" target="KAT6A"><data key="edge_type">codependency</data><data key="weight">0.1669</data></edge>
+    <edge id="e628" source="MLLT10" target="KMT2A"><data key="edge_type">codependency</data><data key="weight">0.263</data></edge>
+    <edge id="e629" source="MLLT10" target="LSM12"><data key="edge_type">codependency</data><data key="weight">0.166</data></edge>
+    <edge id="e630" source="MLLT10" target="MBNL1"><data key="edge_type">codependency</data><data key="weight">0.1739</data></edge>
+    <edge id="e631" source="MLLT10" target="MEAF6"><data key="edge_type">codependency</data><data key="weight">0.1653</data></edge>
+    <edge id="e632" source="MLLT10" target="MED12"><data key="edge_type">codependency</data><data key="weight">0.1587</data></edge>
+    <edge id="e633" source="MLLT10" target="MED13L"><data key="edge_type">codependency</data><data key="weight">0.1857</data></edge>
+    <edge id="e634" source="MLLT10" target="MED23"><data key="edge_type">codependency</data><data key="weight">0.2288</data></edge>
+    <edge id="e635" source="MLLT10" target="MED24"><data key="edge_type">codependency</data><data key="weight">0.1945</data></edge>
+    <edge id="e636" source="MLLT10" target="MEF2C"><data key="edge_type">codependency</data><data key="weight">0.2295</data></edge>
+    <edge id="e637" source="MLLT10" target="MEN1"><data key="edge_type">codependency</data><data key="weight">0.4368</data></edge>
+    <edge id="e638" source="MLLT10" target="MORF4L1"><data key="edge_type">codependency</data><data key="weight">0.1738</data></edge>
+    <edge id="e639" source="MLLT10" target="MRPL43"><data key="edge_type">codependency</data><data key="weight">0.1433</data></edge>
+    <edge id="e640" source="MLLT10" target="MTA2"><data key="edge_type">codependency</data><data key="weight">0.183</data></edge>
+    <edge id="e641" source="MLLT10" target="MTHFD1"><data key="edge_type">codependency</data><data key="weight">0.1505</data></edge>
+    <edge id="e642" source="MLLT10" target="PDSS2"><data key="edge_type">codependency</data><data key="weight">0.1574</data></edge>
+    <edge id="e643" source="MLLT10" target="POU2AF1"><data key="edge_type">codependency</data><data key="weight">0.2191</data></edge>
+    <edge id="e644" source="MLLT10" target="PSIP1"><data key="edge_type">codependency</data><data key="weight">0.2635</data></edge>
+    <edge id="e645" source="MLLT10" target="RCC2"><data key="edge_type">codependency</data><data key="weight">0.1919</data></edge>
+    <edge id="e646" source="MLLT10" target="SGF29"><data key="edge_type">codependency</data><data key="weight">0.1964</data></edge>
+    <edge id="e647" source="MLLT10" target="SIK3"><data key="edge_type">codependency</data><data key="weight">0.1934</data></edge>
+    <edge id="e648" source="MLLT10" target="SMARCA5"><data key="edge_type">codependency</data><data key="weight">0.1484</data></edge>
+    <edge id="e649" source="MLLT10" target="SMARCD1"><data key="edge_type">codependency</data><data key="weight">0.1486</data></edge>
+    <edge id="e650" source="MLLT10" target="SUPT20H"><data key="edge_type">codependency</data><data key="weight">0.2246</data></edge>
+    <edge id="e651" source="MLLT10" target="SUPT7L"><data key="edge_type">codependency</data><data key="weight">0.2796</data></edge>
+    <edge id="e652" source="MLLT10" target="SURF1"><data key="edge_type">codependency</data><data key="weight">0.1576</data></edge>
+    <edge id="e653" source="MLLT10" target="SUZ12"><data key="edge_type">codependency</data><data key="weight">0.1849</data></edge>
+    <edge id="e654" source="MLLT10" target="TADA1"><data key="edge_type">codependency</data><data key="weight">0.2393</data></edge>
+    <edge id="e655" source="MLLT10" target="TADA2B"><data key="edge_type">codependency</data><data key="weight">0.2673</data></edge>
+    <edge id="e656" source="MLLT10" target="TADA3"><data key="edge_type">codependency</data><data key="weight">0.1874</data></edge>
+    <edge id="e657" source="MLLT10" target="TAF10"><data key="edge_type">codependency</data><data key="weight">0.1523</data></edge>
+    <edge id="e658" source="MLLT10" target="TAF13"><data key="edge_type">codependency</data><data key="weight">0.1424</data></edge>
+    <edge id="e659" source="MLLT10" target="TAF5L"><data key="edge_type">codependency</data><data key="weight">0.2572</data></edge>
+    <edge id="e660" source="MLLT10" target="TAF6L"><data key="edge_type">codependency</data><data key="weight">0.1976</data></edge>
+    <edge id="e661" source="MLLT10" target="TCF3"><data key="edge_type">codependency</data><data key="weight">0.168</data></edge>
+    <edge id="e662" source="MLLT10" target="TUBB2A"><data key="edge_type">codependency</data><data key="weight">0.1521</data></edge>
+    <edge id="e663" source="MLLT10" target="USP22"><data key="edge_type">codependency</data><data key="weight">0.2374</data></edge>
+    <edge id="e664" source="MLLT10" target="ZFAT"><data key="edge_type">codependency</data><data key="weight">0.1795</data></edge>
+    <edge id="e665" source="MLLT10" target="ZFP64"><data key="edge_type">codependency</data><data key="weight">0.1763</data></edge>
+    <edge id="e666" source="MLLT10" target="ZMYND8"><data key="edge_type">codependency</data><data key="weight">0.1659</data></edge>
+    <edge id="e667" source="MLLT10" target="ZNF592"><data key="edge_type">codependency</data><data key="weight">0.1813</data></edge>
+    <edge id="e671" source="MLLT1" target="AFF1"><data key="edge_type">codependency</data><data key="weight">0.2615</data></edge>
+    <edge id="e672" source="MLLT1" target="ALAD"><data key="edge_type">codependency</data><data key="weight">0.2112</data></edge>
+    <edge id="e673" source="MLLT1" target="ARHGAP45"><data key="edge_type">codependency</data><data key="weight">0.183</data></edge>
+    <edge id="e674" source="MLLT1" target="ATIC"><data key="edge_type">codependency</data><data key="weight">0.1848</data></edge>
+    <edge id="e675" source="MLLT1" target="ATXN7"><data key="edge_type">codependency</data><data key="weight">0.2064</data></edge>
+    <edge id="e676" source="MLLT1" target="BCL2"><data key="edge_type">codependency</data><data key="weight">0.2292</data></edge>
+    <edge id="e677" source="MLLT1" target="BCS1L"><data key="edge_type">codependency</data><data key="weight">0.1898</data></edge>
+    <edge id="e678" source="MLLT1" target="BRD9"><data key="edge_type">codependency</data><data key="weight">0.2139</data></edge>
+    <edge id="e679" source="MLLT1" target="BRPF1"><data key="edge_type">codependency</data><data key="weight">0.3209</data></edge>
+    <edge id="e680" source="MLLT1" target="CAB39"><data key="edge_type">codependency</data><data key="weight">0.2331</data></edge>
+    <edge id="e681" source="MLLT1" target="CBFB"><data key="edge_type">codependency</data><data key="weight">0.2171</data></edge>
+    <edge id="e682" source="MLLT1" target="CCDC47"><data key="edge_type">codependency</data><data key="weight">0.1892</data></edge>
+    <edge id="e683" source="MLLT1" target="CCNC"><data key="edge_type">codependency</data><data key="weight">0.2224</data></edge>
+    <edge id="e684" source="MLLT1" target="CCND3"><data key="edge_type">codependency</data><data key="weight">0.2309</data></edge>
+    <edge id="e685" source="MLLT1" target="CDIN1"><data key="edge_type">codependency</data><data key="weight">0.2491</data></edge>
+    <edge id="e686" source="MLLT1" target="COX16"><data key="edge_type">codependency</data><data key="weight">0.1969</data></edge>
+    <edge id="e687" source="MLLT1" target="COX5B"><data key="edge_type">codependency</data><data key="weight">0.1902</data></edge>
+    <edge id="e688" source="MLLT1" target="DARS2"><data key="edge_type">codependency</data><data key="weight">0.199</data></edge>
+    <edge id="e689" source="MLLT1" target="DENND4A"><data key="edge_type">codependency</data><data key="weight">0.1962</data></edge>
+    <edge id="e690" source="MLLT1" target="DLST"><data key="edge_type">codependency</data><data key="weight">0.1959</data></edge>
+    <edge id="e691" source="MLLT1" target="DOT1L"><data key="edge_type">codependency</data><data key="weight">0.3771</data></edge>
+    <edge id="e692" source="MLLT1" target="EBF1"><data key="edge_type">codependency</data><data key="weight">0.2338</data></edge>
+    <edge id="e693" source="MLLT1" target="EED"><data key="edge_type">codependency</data><data key="weight">0.2159</data></edge>
+    <edge id="e694" source="MLLT1" target="EP300"><data key="edge_type">codependency</data><data key="weight">0.2461</data></edge>
+    <edge id="e695" source="MLLT1" target="EZH2"><data key="edge_type">codependency</data><data key="weight">0.2924</data></edge>
+    <edge id="e696" source="MLLT1" target="FH"><data key="edge_type">codependency</data><data key="weight">0.2039</data></edge>
+    <edge id="e697" source="MLLT1" target="FPGS"><data key="edge_type">codependency</data><data key="weight">0.191</data></edge>
+    <edge id="e698" source="MLLT1" target="GCLC"><data key="edge_type">codependency</data><data key="weight">0.2856</data></edge>
+    <edge id="e699" source="MLLT1" target="GSE1"><data key="edge_type">codependency</data><data key="weight">0.1821</data></edge>
+    <edge id="e700" source="MLLT1" target="GSS"><data key="edge_type">codependency</data><data key="weight">0.2061</data></edge>
+    <edge id="e701" source="MLLT1" target="IRF8"><data key="edge_type">codependency</data><data key="weight">0.2071</data></edge>
+    <edge id="e702" source="MLLT1" target="KAT6A"><data key="edge_type">codependency</data><data key="weight">0.3608</data></edge>
+    <edge id="e703" source="MLLT1" target="KMT2A"><data key="edge_type">codependency</data><data key="weight">0.1948</data></edge>
+    <edge id="e704" source="MLLT1" target="MBNL1"><data key="edge_type">codependency</data><data key="weight">0.2297</data></edge>
+    <edge id="e705" source="MLLT1" target="MED12"><data key="edge_type">codependency</data><data key="weight">0.3341</data></edge>
+    <edge id="e706" source="MLLT1" target="MED13"><data key="edge_type">codependency</data><data key="weight">0.3604</data></edge>
+    <edge id="e707" source="MLLT1" target="MED13L"><data key="edge_type">codependency</data><data key="weight">0.3424</data></edge>
+    <edge id="e708" source="MLLT1" target="MED15"><data key="edge_type">codependency</data><data key="weight">0.2842</data></edge>
+    <edge id="e709" source="MLLT1" target="MED16"><data key="edge_type">codependency</data><data key="weight">0.2913</data></edge>
+    <edge id="e710" source="MLLT1" target="MED19"><data key="edge_type">codependency</data><data key="weight">0.2996</data></edge>
+    <edge id="e711" source="MLLT1" target="MED23"><data key="edge_type">codependency</data><data key="weight">0.3216</data></edge>
+    <edge id="e712" source="MLLT1" target="MED24"><data key="edge_type">codependency</data><data key="weight">0.3015</data></edge>
+    <edge id="e713" source="MLLT1" target="MICOS10"><data key="edge_type">codependency</data><data key="weight">0.1896</data></edge>
+    <edge id="e714" source="MLLT1" target="MORF4L1"><data key="edge_type">codependency</data><data key="weight">0.2083</data></edge>
+    <edge id="e715" source="MLLT1" target="MTHFD1"><data key="edge_type">codependency</data><data key="weight">0.2118</data></edge>
+    <edge id="e716" source="MLLT1" target="MYB"><data key="edge_type">codependency</data><data key="weight">0.22</data></edge>
+    <edge id="e717" source="MLLT1" target="NAMPT"><data key="edge_type">codependency</data><data key="weight">0.1949</data></edge>
+    <edge id="e718" source="MLLT1" target="NMNAT1"><data key="edge_type">codependency</data><data key="weight">0.1825</data></edge>
+    <edge id="e719" source="MLLT1" target="PAICS"><data key="edge_type">codependency</data><data key="weight">0.1815</data></edge>
+    <edge id="e720" source="MLLT1" target="PDXK"><data key="edge_type">codependency</data><data key="weight">0.189</data></edge>
+    <edge id="e721" source="MLLT1" target="PFAS"><data key="edge_type">codependency</data><data key="weight">0.1849</data></edge>
+    <edge id="e722" source="MLLT1" target="PPCDC"><data key="edge_type">codependency</data><data key="weight">0.1959</data></edge>
+    <edge id="e723" source="MLLT1" target="PPCS"><data key="edge_type">codependency</data><data key="weight">0.265</data></edge>
+    <edge id="e724" source="MLLT1" target="SDHA"><data key="edge_type">codependency</data><data key="weight">0.1961</data></edge>
+    <edge id="e725" source="MLLT1" target="SDHB"><data key="edge_type">codependency</data><data key="weight">0.2043</data></edge>
+    <edge id="e726" source="MLLT1" target="SGF29"><data key="edge_type">codependency</data><data key="weight">0.381</data></edge>
+    <edge id="e727" source="MLLT1" target="SMARCD1"><data key="edge_type">codependency</data><data key="weight">0.2118</data></edge>
+    <edge id="e728" source="MLLT1" target="SUPT20H"><data key="edge_type">codependency</data><data key="weight">0.372</data></edge>
+    <edge id="e729" source="MLLT1" target="SUPT7L"><data key="edge_type">codependency</data><data key="weight">0.2539</data></edge>
+    <edge id="e730" source="MLLT1" target="SUZ12"><data key="edge_type">codependency</data><data key="weight">0.2427</data></edge>
+    <edge id="e731" source="MLLT1" target="TADA1"><data key="edge_type">codependency</data><data key="weight">0.3565</data></edge>
+    <edge id="e732" source="MLLT1" target="TADA2B"><data key="edge_type">codependency</data><data key="weight">0.3539</data></edge>
+    <edge id="e733" source="MLLT1" target="TADA3"><data key="edge_type">codependency</data><data key="weight">0.2923</data></edge>
+    <edge id="e734" source="MLLT1" target="TAF10"><data key="edge_type">codependency</data><data key="weight">0.1902</data></edge>
+    <edge id="e735" source="MLLT1" target="TAF13"><data key="edge_type">codependency</data><data key="weight">0.2181</data></edge>
+    <edge id="e736" source="MLLT1" target="TAF5L"><data key="edge_type">codependency</data><data key="weight">0.335</data></edge>
+    <edge id="e737" source="MLLT1" target="TAF6L"><data key="edge_type">codependency</data><data key="weight">0.2717</data></edge>
+    <edge id="e738" source="MLLT1" target="TCF3"><data key="edge_type">codependency</data><data key="weight">0.1847</data></edge>
+    <edge id="e739" source="MLLT1" target="UQCRC1"><data key="edge_type">codependency</data><data key="weight">0.182</data></edge>
+    <edge id="e740" source="MLLT1" target="USP22"><data key="edge_type">codependency</data><data key="weight">0.2564</data></edge>
+    <edge id="e741" source="MLLT1" target="WDR20"><data key="edge_type">codependency</data><data key="weight">0.2506</data></edge>
+    <edge id="e742" source="MLLT1" target="ZMYND8"><data key="edge_type">codependency</data><data key="weight">0.2471</data></edge>
+    <edge id="e743" source="MLLT1" target="ZNF592"><data key="edge_type">codependency</data><data key="weight">0.2096</data></edge>
+    <edge id="e749" source="KMT2A" target="ALAD"><data key="edge_type">codependency</data><data key="weight">0.1794</data></edge>
+    <edge id="e750" source="KMT2A" target="ALAS1"><data key="edge_type">codependency</data><data key="weight">0.1655</data></edge>
+    <edge id="e751" source="KMT2A" target="ASH1L"><data key="edge_type">codependency</data><data key="weight">0.3122</data></edge>
+    <edge id="e752" source="KMT2A" target="ATXN7L3"><data key="edge_type">codependency</data><data key="weight">0.161</data></edge>
+    <edge id="e753" source="KMT2A" target="BCL2"><data key="edge_type">codependency</data><data key="weight">0.1623</data></edge>
+    <edge id="e754" source="KMT2A" target="BRD3OS"><data key="edge_type">codependency</data><data key="weight">0.4633</data></edge>
+    <edge id="e755" source="KMT2A" target="BRD9"><data key="edge_type">codependency</data><data key="weight">0.1627</data></edge>
+    <edge id="e756" source="KMT2A" target="BRPF1"><data key="edge_type">codependency</data><data key="weight">0.3912</data></edge>
+    <edge id="e757" source="KMT2A" target="CARS2"><data key="edge_type">codependency</data><data key="weight">0.1607</data></edge>
+    <edge id="e758" source="KMT2A" target="CTBP1"><data key="edge_type">codependency</data><data key="weight">0.2113</data></edge>
+    <edge id="e759" source="KMT2A" target="DENND4A"><data key="edge_type">codependency</data><data key="weight">0.1655</data></edge>
+    <edge id="e760" source="KMT2A" target="DOT1L"><data key="edge_type">codependency</data><data key="weight">0.5239</data></edge>
+    <edge id="e761" source="KMT2A" target="DYRK1A"><data key="edge_type">codependency</data><data key="weight">0.1611</data></edge>
+    <edge id="e762" source="KMT2A" target="EED"><data key="edge_type">codependency</data><data key="weight">0.2789</data></edge>
+    <edge id="e763" source="KMT2A" target="EZH2"><data key="edge_type">codependency</data><data key="weight">0.2813</data></edge>
+    <edge id="e764" source="KMT2A" target="FH"><data key="edge_type">codependency</data><data key="weight">0.1728</data></edge>
+    <edge id="e765" source="KMT2A" target="GCLC"><data key="edge_type">codependency</data><data key="weight">0.1754</data></edge>
+    <edge id="e766" source="KMT2A" target="ING5"><data key="edge_type">codependency</data><data key="weight">0.2366</data></edge>
+    <edge id="e767" source="KMT2A" target="IRF8"><data key="edge_type">codependency</data><data key="weight">0.1715</data></edge>
+    <edge id="e768" source="KMT2A" target="JADE1"><data key="edge_type">codependency</data><data key="weight">0.1709</data></edge>
+    <edge id="e769" source="KMT2A" target="JADE2"><data key="edge_type">codependency</data><data key="weight">0.2567</data></edge>
+    <edge id="e770" source="KMT2A" target="KAT6A"><data key="edge_type">codependency</data><data key="weight">0.356</data></edge>
+    <edge id="e771" source="KMT2A" target="KAT6B"><data key="edge_type">codependency</data><data key="weight">0.226</data></edge>
+    <edge id="e772" source="KMT2A" target="KAT7"><data key="edge_type">codependency</data><data key="weight">0.1972</data></edge>
+    <edge id="e773" source="KMT2A" target="LIPT2"><data key="edge_type">codependency</data><data key="weight">0.158</data></edge>
+    <edge id="e774" source="KMT2A" target="MBD2"><data key="edge_type">codependency</data><data key="weight">0.1701</data></edge>
+    <edge id="e775" source="KMT2A" target="MEAF6"><data key="edge_type">codependency</data><data key="weight">0.3166</data></edge>
+    <edge id="e776" source="KMT2A" target="MEF2C"><data key="edge_type">codependency</data><data key="weight">0.211</data></edge>
+    <edge id="e777" source="KMT2A" target="MEN1"><data key="edge_type">codependency</data><data key="weight">0.5834</data></edge>
+    <edge id="e778" source="KMT2A" target="MLLT1"><data key="edge_type">codependency</data><data key="weight">0.1948</data></edge>
+    <edge id="e779" source="KMT2A" target="MLLT10"><data key="edge_type">codependency</data><data key="weight">0.263</data></edge>
+    <edge id="e780" source="KMT2A" target="MORF4L1"><data key="edge_type">codependency</data><data key="weight">0.2066</data></edge>
+    <edge id="e781" source="KMT2A" target="MRGBP"><data key="edge_type">codependency</data><data key="weight">0.1735</data></edge>
+    <edge id="e782" source="KMT2A" target="MSL3"><data key="edge_type">codependency</data><data key="weight">0.1913</data></edge>
+    <edge id="e783" source="KMT2A" target="PGM3"><data key="edge_type">codependency</data><data key="weight">0.1581</data></edge>
+    <edge id="e784" source="KMT2A" target="POT1"><data key="edge_type">codependency</data><data key="weight">0.1631</data></edge>
+    <edge id="e785" source="KMT2A" target="PSIP1"><data key="edge_type">codependency</data><data key="weight">0.3742</data></edge>
+    <edge id="e786" source="KMT2A" target="RNASEH2A"><data key="edge_type">codependency</data><data key="weight">0.1637</data></edge>
+    <edge id="e787" source="KMT2A" target="SDHA"><data key="edge_type">codependency</data><data key="weight">0.1666</data></edge>
+    <edge id="e788" source="KMT2A" target="SIK3"><data key="edge_type">codependency</data><data key="weight">0.2918</data></edge>
+    <edge id="e789" source="KMT2A" target="STK11"><data key="edge_type">codependency</data><data key="weight">0.1902</data></edge>
+    <edge id="e790" source="KMT2A" target="SUPT7L"><data key="edge_type">codependency</data><data key="weight">0.1781</data></edge>
+    <edge id="e791" source="KMT2A" target="SUZ12"><data key="edge_type">codependency</data><data key="weight">0.2142</data></edge>
+    <edge id="e792" source="KMT2A" target="TADA2B"><data key="edge_type">codependency</data><data key="weight">0.1698</data></edge>
+    <edge id="e793" source="KMT2A" target="ZFAT"><data key="edge_type">codependency</data><data key="weight">0.1617</data></edge>
+    <edge id="e794" source="KMT2A" target="ZFP64"><data key="edge_type">codependency</data><data key="weight">0.3237</data></edge>
+    <edge id="e795" source="MEN1" target="ADIPOR2"><data key="edge_type">codependency</data><data key="weight">0.1643</data></edge>
+    <edge id="e796" source="MEN1" target="ALAD"><data key="edge_type">codependency</data><data key="weight">0.2334</data></edge>
+    <edge id="e797" source="MEN1" target="ALAS1"><data key="edge_type">codependency</data><data key="weight">0.1862</data></edge>
+    <edge id="e798" source="MEN1" target="ATP1B3"><data key="edge_type">codependency</data><data key="weight">0.1938</data></edge>
+    <edge id="e799" source="MEN1" target="ATXN2L"><data key="edge_type">codependency</data><data key="weight">0.2127</data></edge>
+    <edge id="e800" source="MEN1" target="ATXN7L3"><data key="edge_type">codependency</data><data key="weight">0.18</data></edge>
+    <edge id="e801" source="MEN1" target="BCL2"><data key="edge_type">codependency</data><data key="weight">0.1844</data></edge>
+    <edge id="e802" source="MEN1" target="BIN3"><data key="edge_type">codependency</data><data key="weight">0.1754</data></edge>
+    <edge id="e803" source="MEN1" target="BRPF1"><data key="edge_type">codependency</data><data key="weight">0.2673</data></edge>
+    <edge id="e804" source="MEN1" target="CAD"><data key="edge_type">codependency</data><data key="weight">0.171</data></edge>
+    <edge id="e805" source="MEN1" target="CCDC47"><data key="edge_type">codependency</data><data key="weight">0.1999</data></edge>
+    <edge id="e806" source="MEN1" target="CCND3"><data key="edge_type">codependency</data><data key="weight">0.1595</data></edge>
+    <edge id="e807" source="MEN1" target="CHD7"><data key="edge_type">codependency</data><data key="weight">0.1751</data></edge>
+    <edge id="e808" source="MEN1" target="COX6B1"><data key="edge_type">codependency</data><data key="weight">0.1638</data></edge>
+    <edge id="e809" source="MEN1" target="CTBP1"><data key="edge_type">codependency</data><data key="weight">0.2032</data></edge>
+    <edge id="e810" source="MEN1" target="DARS2"><data key="edge_type">codependency</data><data key="weight">0.1799</data></edge>
+    <edge id="e811" source="MEN1" target="DLST"><data key="edge_type">codependency</data><data key="weight">0.1854</data></edge>
+    <edge id="e812" source="MEN1" target="DOT1L"><data key="edge_type">codependency</data><data key="weight">0.5703</data></edge>
+    <edge id="e813" source="MEN1" target="DYRK1A"><data key="edge_type">codependency</data><data key="weight">0.1931</data></edge>
+    <edge id="e814" source="MEN1" target="EBF1"><data key="edge_type">codependency</data><data key="weight">0.1791</data></edge>
+    <edge id="e815" source="MEN1" target="EED"><data key="edge_type">codependency</data><data key="weight">0.3184</data></edge>
+    <edge id="e816" source="MEN1" target="EP300"><data key="edge_type">codependency</data><data key="weight">0.1679</data></edge>
+    <edge id="e817" source="MEN1" target="EZH2"><data key="edge_type">codependency</data><data key="weight">0.2931</data></edge>
+    <edge id="e818" source="MEN1" target="GCLC"><data key="edge_type">codependency</data><data key="weight">0.1742</data></edge>
+    <edge id="e819" source="MEN1" target="H4C9"><data key="edge_type">codependency</data><data key="weight">0.2104</data></edge>
+    <edge id="e820" source="MEN1" target="IKZF1"><data key="edge_type">codependency</data><data key="weight">0.1968</data></edge>
+    <edge id="e821" source="MEN1" target="ING5"><data key="edge_type">codependency</data><data key="weight">0.314</data></edge>
+    <edge id="e822" source="MEN1" target="IRF8"><data key="edge_type">codependency</data><data key="weight">0.1773</data></edge>
+    <edge id="e823" source="MEN1" target="JADE1"><data key="edge_type">codependency</data><data key="weight">0.2388</data></edge>
+    <edge id="e824" source="MEN1" target="JADE2"><data key="edge_type">codependency</data><data key="weight">0.4171</data></edge>
+    <edge id="e825" source="MEN1" target="KAT6A"><data key="edge_type">codependency</data><data key="weight">0.2371</data></edge>
+    <edge id="e826" source="MEN1" target="KAT7"><data key="edge_type">codependency</data><data key="weight">0.2141</data></edge>
+    <edge id="e827" source="MEN1" target="KMT2A"><data key="edge_type">codependency</data><data key="weight">0.5834</data></edge>
+    <edge id="e828" source="MEN1" target="LSM12"><data key="edge_type">codependency</data><data key="weight">0.2176</data></edge>
+    <edge id="e829" source="MEN1" target="MBD2"><data key="edge_type">codependency</data><data key="weight">0.1946</data></edge>
+    <edge id="e830" source="MEN1" target="MBNL1"><data key="edge_type">codependency</data><data key="weight">0.2417</data></edge>
+    <edge id="e831" source="MEN1" target="MEAF6"><data key="edge_type">codependency</data><data key="weight">0.3293</data></edge>
+    <edge id="e832" source="MEN1" target="MED13L"><data key="edge_type">codependency</data><data key="weight">0.1601</data></edge>
+    <edge id="e833" source="MEN1" target="MED23"><data key="edge_type">codependency</data><data key="weight">0.2393</data></edge>
+    <edge id="e834" source="MEN1" target="MED24"><data key="edge_type">codependency</data><data key="weight">0.1776</data></edge>
+    <edge id="e835" source="MEN1" target="MEF2C"><data key="edge_type">codependency</data><data key="weight">0.2678</data></edge>
+    <edge id="e836" source="MEN1" target="MLLT10"><data key="edge_type">codependency</data><data key="weight">0.4368</data></edge>
+    <edge id="e837" source="MEN1" target="MORF4L1"><data key="edge_type">codependency</data><data key="weight">0.2412</data></edge>
+    <edge id="e838" source="MEN1" target="MRGBP"><data key="edge_type">codependency</data><data key="weight">0.2066</data></edge>
+    <edge id="e839" source="MEN1" target="MSL3"><data key="edge_type">codependency</data><data key="weight">0.1871</data></edge>
+    <edge id="e840" source="MEN1" target="MTA2"><data key="edge_type">codependency</data><data key="weight">0.2048</data></edge>
+    <edge id="e841" source="MEN1" target="MTERF4"><data key="edge_type">codependency</data><data key="weight">0.1589</data></edge>
+    <edge id="e842" source="MEN1" target="PDSS2"><data key="edge_type">codependency</data><data key="weight">0.1627</data></edge>
+    <edge id="e843" source="MEN1" target="PGM3"><data key="edge_type">codependency</data><data key="weight">0.1708</data></edge>
+    <edge id="e844" source="MEN1" target="PMM2"><data key="edge_type">codependency</data><data key="weight">0.1676</data></edge>
+    <edge id="e845" source="MEN1" target="POU2AF1"><data key="edge_type">codependency</data><data key="weight">0.2559</data></edge>
+    <edge id="e846" source="MEN1" target="PPCDC"><data key="edge_type">codependency</data><data key="weight">0.1629</data></edge>
+    <edge id="e847" source="MEN1" target="PSIP1"><data key="edge_type">codependency</data><data key="weight">0.5288</data></edge>
+    <edge id="e848" source="MEN1" target="RCC2"><data key="edge_type">codependency</data><data key="weight">0.1625</data></edge>
+    <edge id="e849" source="MEN1" target="SDHA"><data key="edge_type">codependency</data><data key="weight">0.1594</data></edge>
+    <edge id="e850" source="MEN1" target="SIK3"><data key="edge_type">codependency</data><data key="weight">0.2473</data></edge>
+    <edge id="e851" source="MEN1" target="SLC20A1"><data key="edge_type">codependency</data><data key="weight">0.1678</data></edge>
+    <edge id="e852" source="MEN1" target="SMARCA5"><data key="edge_type">codependency</data><data key="weight">0.2006</data></edge>
+    <edge id="e853" source="MEN1" target="STK11"><data key="edge_type">codependency</data><data key="weight">0.2142</data></edge>
+    <edge id="e854" source="MEN1" target="SUPT7L"><data key="edge_type">codependency</data><data key="weight">0.2105</data></edge>
+    <edge id="e855" source="MEN1" target="SURF1"><data key="edge_type">codependency</data><data key="weight">0.1737</data></edge>
+    <edge id="e856" source="MEN1" target="SUZ12"><data key="edge_type">codependency</data><data key="weight">0.2636</data></edge>
+    <edge id="e857" source="MEN1" target="TADA1"><data key="edge_type">codependency</data><data key="weight">0.1625</data></edge>
+    <edge id="e858" source="MEN1" target="TADA2B"><data key="edge_type">codependency</data><data key="weight">0.193</data></edge>
+    <edge id="e859" source="MEN1" target="TAF5L"><data key="edge_type">codependency</data><data key="weight">0.1689</data></edge>
+    <edge id="e860" source="MEN1" target="TCF3"><data key="edge_type">codependency</data><data key="weight">0.1807</data></edge>
+    <edge id="e861" source="MEN1" target="TEX48"><data key="edge_type">codependency</data><data key="weight">0.4393</data></edge>
+    <edge id="e862" source="MEN1" target="TUBB2A"><data key="edge_type">codependency</data><data key="weight">0.1596</data></edge>
+    <edge id="e863" source="MEN1" target="ZFAT"><data key="edge_type">codependency</data><data key="weight">0.167</data></edge>
+    <edge id="e864" source="MEN1" target="ZFP64"><data key="edge_type">codependency</data><data key="weight">0.3451</data></edge>
+    <edge id="e865" source="MEN1" target="ZMYND8"><data key="edge_type">codependency</data><data key="weight">0.197</data></edge>
+    <edge id="e866" source="MEN1" target="ZNF592"><data key="edge_type">codependency</data><data key="weight">0.2015</data></edge>
+  </graph>
+</graphml>
