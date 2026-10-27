@@ -2,7 +2,7 @@
 
 A map of the genetic-dependency neighbourhood around DOT1L in cancer cell lines,
 built from DepMap CRISPR co-dependency profiles and STRING protein-association
-topology, with the selection step calibrated against an explicit null.
+topology, and the selection step is calibrated against an explicit null.
 
 ![Co-dependency network](figures/dot1l_h3k79_dependency_network.png)
 
@@ -16,7 +16,7 @@ need DOT1L?** Genes whose CRISPR knockout fitness profiles track DOT1L's
 across many cell lines are candidates for acting in the same process, and
 therefore candidates for combination targeting.
 
-Concretely we asked three things:
+Concretely I ask three things:
 
 1. Which genes recur across the co-dependency neighbourhoods of DOT1L and of
    six genes tied to it physically or functionally?
@@ -38,8 +38,7 @@ enrichment.
 
 Because the portal exports carry no p-values and are truncated at roughly the
 hundredth-ranked partner, the selection step was calibrated separately — see
-[stats/README.md](stats/README.md). That calibration changed a conclusion, so
-it is not an appendix.
+[stats/README.md](stats/README.md). 
 
 ## Main results
 
