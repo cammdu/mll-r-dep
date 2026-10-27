@@ -1,5 +1,10 @@
+# DepMap portal exports are NOT redistributed here - see data/README.md
 data/raw/*
 !data/raw/.gitkeep
+
 __pycache__/
-*.pyc
+*.py[cod]
+.ipynb_checkpoints/
 .DS_Store
+.venv/
+venv/

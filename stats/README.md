@@ -96,3 +96,72 @@ Both the discreteness of the p-values and the positive dependence among seeds
 make the BH correction conservative rather than exact. And none of this
 addresses bias in the correlations themselves — principal-component correction
 requires the gene-effect matrix, not rank lists.
+
+
+---
+
+# MLL-r-restricted differential dependency
+
+A separate analysis, added after the calibration above, using the full Chronos
+gene-effect matrix rather than the portal's rank lists. It tests the premise the
+network rests on: that DOT1L is *selectively* required in KMT2A-rearranged
+disease.
+
+## Design
+
+Lines are classified by two independent sources that must agree — a canonical
+leukaemogenic KMT2A fusion partner, and DepMap's own subtype annotation. They
+agreed on all 13 calls. Fourteen lines with other KMT2A evidence (passenger
+fusions in solid tumours; the partial-tandem-duplication lines EOL-1 and
+Kasumi-6) are marked **ambiguous and excluded**, not pooled into either arm.
+Sister lines from one patient (MOLM-13/MOLM-14, SEM/SEMK2) are averaged, giving
+11 independent KMT2A-r patients against 38 other acute leukaemias. Each gene is
+fitted by OLS with lineage indicators (AML reference, B-ALL, T-ALL), so a gene
+cannot score by being a myeloid or lymphoid dependency; p-values are BH
+corrected across 17,874 genes.
+
+## Results
+
+| gene | β (KMT2A-r) | 95% CI | q | rank |
+|---|---|---|---|---|
+| ZFP64 | −0.41 | — | 0.002 | 1 |
+| FLT3 | −0.66 | — | 0.005 | 2 |
+| JMJD1C | −0.44 | — | 0.039 | 4 |
+| MEN1 | −0.72 | — | 0.133 | 6 |
+| KMT2A | −0.49 | — | 0.250 | 13 |
+| **DOT1L** | **−0.18** | **[−0.44, +0.08]** | **0.947** | **3,532** |
+
+Permutation tests (10,000 label shuffles) confirm the parametric p-values:
+DOT1L p = 0.19; MEN1, KMT2A, ZFP64 and JMJD1C all p < 10⁻⁴.
+
+## Reading the DOT1L null correctly
+
+DOT1L *is* essential in KMT2A-r lines (mean effect −0.55, p = 4 × 10⁻⁴ against
+zero). What it is not is *selectively* essential relative to other acute
+leukaemias. And the minimum detectable effect at conventional power is ~0.375
+Chronos units, so the design resolves a MENIN-sized window (−0.72) but not a
+modest one. The interval excludes effects more negative than −0.44 while
+remaining compatible with zero.
+
+**This bounds DOT1L selectivity; it does not refute it.** Eleven patients is the
+entire public KMT2A-r panel, so no reframing of the analysis escapes that cap.
+
+## Known confounds
+
+- **FLT3** ranks second, but 2 of 11 KMT2A-r patients carry FLT3-ITD and no
+  comparator does. Those two drive the group mean (−1.54 versus −0.59 in the
+  ITD-negative KMT2A-r patients). Treat the FLT3 rank as partly genotype
+  confounding, not pure MLL-r biology.
+- **ZFP64 and JMJD1C** are both established MLL-r dependencies, which is
+  reassurance that the design detects real signal rather than noise.
+- Correlations and effects remain uncorrected for dominant principal
+  components, as in the pan-cancer analysis.
+
+## Files
+
+| File | Contents |
+|---|---|
+| `mllr_differential_dependency.csv` | All 17,874 genes: β, SE, p, q, rank, group means, Hedges' g |
+| `mllr_module_selectivity.csv` | Mean β per module with a one-sample test against zero |
+| `mllr_within_group_seed_correlations.csv` | Seed-seed co-dependency computed inside KMT2A-r only (n = 11; indicative) |
+| `../data/mllr_cellline_classification.csv` | Every screened line's class and fusion partner |

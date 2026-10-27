@@ -47,6 +47,17 @@ proved too unstable to drive a layout.
 
 See [../stats/README.md](../stats/README.md).
 
+## 5b. MLL-r-restricted differential dependency (`src/mllr_selectivity.py`)
+
+A separate entry point that uses the full Chronos matrix instead of rank lists,
+to test whether genes are selectively essential in KMT2A-rearranged lines.
+Classification requires agreement between a canonical fusion partner and
+DepMap's subtype annotation; ambiguous lines are excluded; sister lines are
+averaged to patient level; testing is lineage-adjusted OLS with BH correction
+and permutation confirmation. Run it with `python mllr_selectivity.py` after
+placing `CRISPRGeneEffect.csv`, `Model.csv` and `OmicsFusionFiltered.csv` in
+`data/raw/`. Results and their caveats are in `../stats/README.md`.
+
 ## 6. Outputs
 
 Node table, typed edge list, GraphML (written without a graph library, see
@@ -63,3 +74,9 @@ text-collision check before saving.
   possible from rank lists.
 - **Module membership is not a claim of physical interaction.** STRING edges
   combine experimental, database and co-expression evidence.
+- **Ambiguous KMT2A genotypes are excluded, not pooled.** Partial tandem
+  duplications and passenger fusions are neither MLL-r nor clean controls, so
+  including them in either arm would bias the selectivity test.
+- **A non-significant selectivity result is reported as a bound.** With 11
+  patients the analysis cannot distinguish "no effect" from "modest effect",
+  and the manuscript says so rather than claiming a negative.

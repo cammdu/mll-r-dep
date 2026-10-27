@@ -7,6 +7,7 @@
 | `dot1l_h3k79_node_table.csv` | All 454 genes positively correlated with at least one seed. Per-seed correlations, recurrence, BH q-value, confidence tier, module, module stability, STRING degree, network membership flags. |
 | `dot1l_h3k79_network_edges.csv` | 505 STRING association edges plus 362 seed-to-gene co-dependency edges, typed and weighted. |
 | `dot1l_h3k79_network.graphml` | The 127-node network with all node attributes, for Cytoscape or igraph. |
+| `mllr_cellline_classification.csv` | Every screened cell line with its KMT2A class (`KMT2A_r` / `non_r` / `ambiguous`), fusion partner, patient ID and disease, so the 13 rearranged calls and 14 exclusions can be audited. |
 
 Key columns in the node table:
 
@@ -24,6 +25,8 @@ redistribution of the source files.
 
 ## Obtaining the inputs
 
+### For the co-dependency network: seven per-gene exports
+
 For each of DOT1L, MLLT10, MLLT6, MLLT1, MLLT3, KMT2A and MEN1:
 
 1. Go to the DepMap portal gene page, e.g. `https://depmap.org/portal/gene/DOT1L`
@@ -37,6 +40,19 @@ across releases. Note that `+Score` integrates Broad and Sanger screens, so
 values differ from a Broad-only release.
 
 The DepMap portal blocks programmatic clients; download through a browser.
+
+### For the MLL-r selectivity analysis: three release files
+
+From the DepMap Downloads page, release **DepMap Public 26Q1**, save into
+`data/raw/`:
+
+| File | Size | Why |
+|---|---|---|
+| `CRISPRGeneEffect.csv` | ~450 MB | The full Chronos matrix (1,208 lines x 18,531 genes) |
+| `Model.csv` | <5 MB | Cell-line annotation, lineage and patient IDs |
+| `OmicsFusionFiltered.csv` | ~12 MB | Fusion calls, so KMT2A-r status comes from data rather than a remembered list |
+
+These are also excluded from version control.
 
 ## Credit
 
